@@ -178,7 +178,7 @@ if (isset($_POST['finish'])) {
     </script>
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -393,164 +393,266 @@ if (isset($_POST['finish'])) {
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Header -->
-    <header class="py-2 px-12 max-w-6xl mx-auto  bg-white flex items-center justify-between border-b border-gray-200">
+
+    <header class="py-2 md:px-0 px-4 max-w-7xl mx-auto  bg-white flex items-center justify-between border-b border-gray-200">
+
         <div class="flex items-center gap-3 ">
 
             <a href="https://infinitequotehub.com/">
-                <img src="./images/logo.png" alt="Infinite Quote Hub Logo" class="w-28 ml-3" />
+                <img src="../images/logo.png" alt="Infinite Quote Hub Logo" class="w-28 ml-3" />
             </a>
             <!-- <span class="text-lg font-bold tracking-wide uppercase">Infinite Quote Hub</span> -->
         </div>
-        <div class="flex gap-3">
+        <div class="flex gap-4">
+            <a href="tel:8336152933" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-semibold text-sm sm:text-base shadow-md">
+                CALL 24/7
+            </a>
             <a href="tel:833-615-2933"
                 class="bg-green-700 text-white flex gap-2 items-center  font-semibold uppercase p-[12px_25px] rounded-md ">
                 (833) 615 2933</a>
 
-            <a href="tel:8334030913"
+            <!-- <a href="tel:8334030913"
                 class="hidden md:inline-flex items-center gap-2 bg-transparent text-green-700  text-md transition-all duration-200">
 
                 Agentes en Español (833-403-0913)
+            </a> -->
+
+            <a href="#form" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-semibold text-sm sm:text-base shadow-md">
+                SCHEDULE A FREE CONSULTATION
             </a>
         </div>
 
     </header>
 
 
-    <div id="contact" class="relative bg-cover bg-center bg-no-repeat min-h-screen " style="background-image: url('./images/car\ accident.jpg');">
+    <div id="contact" class="relative bg-cover bg-center bg-no-repeat md:min-h-[85vh]" style="background-image: url('../images/car accident.jpg');">
         <div class="bg-black/60 w-full h-full absolute inset-0 z-0"></div>
 
-        <div>
-            <h2 class="text-white relative z-10 font-semibold text-center lg:text-[77px] sm:text-xl pt-10 ">
+        <!-- Navigation Links -->
+        <div class="flex justify-end gap-6 md:max-w-7xl lg:max-w-7xl mx-auto py-3 relative z-10">
+            <a href="" class="text-white font-medium text-[17px]">PRACTICE AREAS</a>
+            <a href="" class="text-white font-medium text-[17px]">LOCATIONS</a>
+            <a href="" class="text-white font-medium text-[17px]">ABOUT US</a>
+            <a href="" class="text-white font-medium text-[17px]">CONTACT US</a>
+        </div>
+
+        <!-- Title -->
+        <div class="pt-6 max-w-7xl mx-auto">
+            <h2 class="text-white text-center relative z-10 font-semibold lg:text-[62px] sm:text-xl pb-6">
                 CAR ACCIDENT ATTORNEYS
             </h2>
         </div>
-        <div class="flex items-center justify-center">
 
-            <div class="relative z-10 w-full max-w-7xl md:mt-0  mx-auto px-4 py-16 flex flex-col-reverse lg:flex-row items-center justify-center lg:gap-[100px] ">
-                <!-- Left Content -->
-                <div class="text-center lg:text-left text-white max-w-xl">
-                    <h2 class="text-3xl sm:text-4xl font-semibold leading-tight mb-4">
-                        Is It Worth Hiring A Car Accident Lawyer?
+        <!-- Content Section -->
+        <div class="max-w-6xl mx-auto px-4 py-10 z-50 flex flex-col-reverse lg:flex-row items-center lg:items-center justify-between gap-8">
+            <!-- Left Content Box -->
+            <div class="bg-white/80 py-11 px-6 shadow-lg z-20 border border-gray-200 rounded-md md:min-h-[500px] w-full lg:w-1/2">
+                <div class="text-center">
+                    <!-- Heading -->
+                    <h2 class="text-[24px] sm:text-[34px] font-bold text-[#00446A] leading-snug mb-4">
+                        Have You Been In A Car <br /> Accident?
                     </h2>
-                    <!-- <p class="text-base sm:text-lg text-gray-200">
-                           Fill out the form and our team will contact you shortly.
-                         </p> -->
 
-                    <p class="text-white">Yes, hiring a car accident lawyer is a crucial step after a crash. While many cases settle before trial, an experienced attorney plays a pivotal role in negotiating with insurance companies to secure the maximum possible compensation. They also have the expertise to take your case to trial if that becomes the best path to justice. Most importantly, a lawyer understands the complexities of personal injury law and can leverage all available evidence to build the strongest possible case on your behalf.</p>
+                    <!-- Description -->
+                    <p class="text-gray-800 text-[14px] sm:text-[24px] mb-4">
+                        Dealing with a car accident is stressful enough. Let our compassionate team handle the complex legal process so you can focus on your recovery. We'll guide you through every step, from dealing with insurance companies to securing the compensation you need to get back on your feet.
+                    </p>
+
+                    <!-- Buttons -->
+                    <div class="flex flex-col sm:flex-row justify-center gap-4 mt-4">
+                        <a href="tel:8336152933" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-semibold text-sm sm:text-base shadow-md">
+                            CALL (833) 615 2933
+                        </a>
+                        <a href="#form" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-semibold text-sm sm:text-base shadow-md">
+                            SCHEDULE A FREE CONSULTATION
+                        </a>
+                    </div>
                 </div>
-
-                <div>
-                    <img src="./images/hero men.jpg" alt="" class="rounded-sm w-[200px] h-[300px]">
-                </div>
-
             </div>
 
+            <!-- Right Image -->
+            <div class="w-full lg:w-1/2 flex justify-center z-20">
+                <img src="../images/hero men.jpg" alt="Hero image" class="rounded-md w-auto h-[420px] md:h-[515px] object-contain" />
+            </div>
         </div>
     </div>
 
-    <div class="relative lg:absolute lg:top-[600px] mx-auto  px-4 w-full max-w-7xl">
+
+
+
+    <div class="relative px-4 w-full max-w-6xl mx-auto py-16 z-20">
         <div class="flex flex-col lg:flex-row gap-6 lg:gap-10">
-            <!-- Cards Container - Now comes first in DOM -->
-            <div class="flex flex-col sm:flex-row gap-6 w-full lg:w-auto">
-                <!-- Card 1 -->
-                <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
-                    <div class="px-2 mt-6">
-                        <h2 class="font-bold text-[18px] text-center">Local Attorneys National Network</h2>
-                        <p class="text-[10px] text-center mt-2">We will find you the best local attorney for your case.</p>
+            <!-- Cards Container -->
+            <div class="grid grid-cols-1 bg-[#f9f9f9] gap-10 justify-center h-fit w-full lg:w-3/5">
+                <!-- Cards Row -->
+                <div class="flex flex-col justify-between sm:flex-row gap-6 w-full">
+                    <!-- Card 1 -->
+                    <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
+                        <div class="px-2 mt-6">
+                            <h2 class="font-bold text-[18px] text-center">Local Attorneys National Network</h2>
+                            <p class="text-[10px] text-center mt-2">We will find you the best local attorney for your case.</p>
+                        </div>
+                        <div class="flex flex-grow justify-center items-center">
+                            <img src="../images/card 1.png" alt="" class="w-[120px] h-[120px] object-contain">
+                        </div>
                     </div>
-                    <div class="flex flex-grow justify-center items-center">
-                        <img src="./images/card 1.png" alt="" class="w-[120px] h-[120px] object-contain">
+
+                    <!-- Card 2 -->
+                    <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
+                        <div class="px-2 mt-6">
+                            <h2 class="font-bold text-[18px] text-center">No Win, No Fee</h2>
+                            <p class="text-[10px] text-center mt-2">If we don't win your case, there is no fee to you.</p>
+                        </div>
+                        <div class="flex flex-grow justify-center items-center">
+                            <img src="../images/card 2.png" alt="" class="w-[100px] h-[100px] object-contain">
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
+                        <div class="px-2 mt-6">
+                            <h2 class="font-bold text-[18px] text-center">Experienced Team</h2>
+                            <p class="text-[10px] text-center mt-2">For over 35+ years, we have helped thousands of people get the compensation they deserve.</p>
+                        </div>
+                        <div class="flex flex-grow justify-center items-center">
+                            <img src="../images/truck.png" alt="" class="w-[100px] h-[100px] object-contain">
+                        </div>
                     </div>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
-                    <div class="px-2 mt-6">
-                        <h2 class="font-bold text-[18px] text-center">No Win, No Fee</h2>
-                        <p class="text-[10px] text-center mt-2">If we don't win your case, there is no fee to you.</p>
-                    </div>
-                    <div class="flex flex-grow justify-center items-center">
-                        <img src="./images/card 2.png" alt="" class="w-[100px] h-[100px] object-contain">
-                    </div>
-                </div>
+                <!-- Heading and Image Section -->
+                <div class="lg:ml-0">
+                    <h2 class="text-[32px] sm:text-[34px] font-bold text-center leading-tight mb-6">
+                        Get the Settlement Offer you <br class="hidden lg:block" /> Deserve
+                    </h2>
 
-                <!-- Card 3 -->
-                <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
-                    <div class="px-2 mt-6">
-                        <h2 class="font-bold text-[18px] text-center">Experienced Team</h2>
-                        <p class="text-[10px] text-center mt-2">For over 35+ years, we have helped thousands of people get the compensation they deserve.</p>
-                    </div>
-                    <div class="flex flex-grow justify-center items-center">
-                        <img src="./images/truck.png" alt="" class="w-[100px] h-[100px] object-contain">
+                    <!-- Car Accident Image in Red Area -->
+                    <div class="flex justify-center lg:justify-start">
+                        <img src="../images/accidented_car.jpg" alt="Car Accident" class="w-full  object-cover max-h-[250px] rounded-md shadow-md" />
                     </div>
                 </div>
             </div>
+
             <!-- Form Container -->
-            <div class="w-full lg:max-w-xl bg-white p-6 rounded-md shadow-lg min-h-[600px]">
-                <div class="w-full h-full flex items-center justify-center">
-                    <div class="w-full">
-                        <h2 class="text-xl lg:text-2xl font-semibold text-center text-black mb-4">Get Free Consultation now Available 24/7</h2>
+            <div class="w-full md:w-2/5 lg:max-w-xl bg-white p-6 rounded-md shadow-lg min-h-[600px]">
+                <div class="">
+                    <!-- Replace this div with your form -->
+                    <div class="w-full h-full flex items-center justify-center text-gray-500 text-sm italic">
+                        <div>
+                            <h2 class="text-2xl font-semibold text-center text-black mb-4">Get Connected To Our Legal Team</h2>
 
-                        <form action="index.php" method="POST" class="space-y-3">
-                            <div class="grid md:grid-cols-2 grid-cols-1 gap-3">
+
+                            <form action="index.php" method="POST" class="space-y-3">
                                 <!-- Name -->
-                                <div>
-                                    <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
-                                    <input type="text" id="fullName" name="full_name" placeholder="Enter your full name" class="w-full px-4 py-3 border rounded text-sm" required>
-                                    <p class="text-red-500 text-xs mt-1 hidden" id="nameError">Please enter a valid name (letters only).</p>
+                                <div class="grid md:grid-cols-2 grid-cols-1 gap-3">
+                                    <!-- Name -->
+                                    <div>
+                                        <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                                        <input type="text" id="fullName" name="full_name" placeholder="Enter your full name" class="w-full px-4 py-3 border rounded text-sm" required>
+                                        <p class="text-red-500 text-xs mt-1 hidden" id="nameError">Please enter a valid name (letters only).</p>
+                                    </div>
+
+                                    <!-- Phone -->
+                                    <div>
+                                        <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                                        <input type="text" id="phone" placeholder="Enter your phone number" name="phone" class="w-full px-4 py-3 border rounded text-sm" required>
+                                        <p class="text-red-500 text-xs mt-1 hidden" id="phoneError">Please enter a valid 10-digit US phone number.</p>
+                                    </div>
+
+                                    <input id="leadid_token" name="universal_leadid" type="hidden" value="" />
+
+                                    <!-- Email -->
+                                    <div class="col-span-2">
+                                        <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                                        <input type="email" id="email" placeholder="Enter your email" name="email" class="w-full px-4 py-3 border rounded text-sm" required>
+                                        <p class="text-red-500 text-xs mt-1 hidden" id="emailError">Please enter a valid email address.</p>
+                                    </div>
+
+                                    <!-- State -->
+                                    <div>
+                                        <label for="name" class="block text-sm font-medium text-gray-700">State </label>
+                                        <select id="state" name="state" class="w-full px-4 py-3 border rounded text-sm" required>
+                                            <option value="" disabled selected>Select your state</option>
+                                            <option value="Alabama">Alabama</option>
+                                            <option value="Alaska">Alaska</option>
+                                            <option value="Arizona">Arizona</option>
+                                            <option value="Arkansas">Arkansas</option>
+                                            <option value="California">California</option>
+                                            <option value="Colorado">Colorado</option>
+                                            <option value="Connecticut">Connecticut</option>
+                                            <option value="Delaware">Delaware</option>
+                                            <option value="Florida">Florida</option>
+                                            <option value="Georgia">Georgia</option>
+                                            <option value="Hawaii">Hawaii</option>
+                                            <option value="Idaho">Idaho</option>
+                                            <option value="Illinois">Illinois</option>
+                                            <option value="Indiana">Indiana</option>
+                                            <option value="Iowa">Iowa</option>
+                                            <option value="Kansas">Kansas</option>
+                                            <option value="Kentucky">Kentucky</option>
+                                            <option value="Louisiana">Louisiana</option>
+                                            <option value="Maine">Maine</option>
+                                            <option value="Maryland">Maryland</option>
+                                            <option value="Massachusetts">Massachusetts</option>
+                                            <option value="Michigan">Michigan</option>
+                                            <option value="Minnesota">Minnesota</option>
+                                            <option value="Mississippi">Mississippi</option>
+                                            <option value="Missouri">Missouri</option>
+                                            <option value="Montana">Montana</option>
+                                            <option value="Nebraska">Nebraska</option>
+                                            <option value="Nevada">Nevada</option>
+                                            <option value="New Hampshire">New Hampshire</option>
+                                            <option value="New Jersey">New Jersey</option>
+                                            <option value="New Mexico">New Mexico</option>
+                                            <option value="New York">New York</option>
+                                            <option value="North Carolina">North Carolina</option>
+                                            <option value="North Dakota">North Dakota</option>
+                                            <option value="Ohio">Ohio</option>
+                                            <option value="Oklahoma">Oklahoma</option>
+                                            <option value="Oregon">Oregon</option>
+                                            <option value="Pennsylvania">Pennsylvania</option>
+                                            <option value="Rhode Island">Rhode Island</option>
+                                            <option value="South Carolina">South Carolina</option>
+                                            <option value="South Dakota">South Dakota</option>
+                                            <option value="Tennessee">Tennessee</option>
+                                            <option value="Texas">Texas</option>
+                                            <option value="Utah">Utah</option>
+                                            <option value="Vermont">Vermont</option>
+                                            <option value="Virginia">Virginia</option>
+                                            <option value="Washington">Washington</option>
+                                            <option value="West Virginia">West Virginia</option>
+                                            <option value="Wisconsin">Wisconsin</option>
+                                            <option value="Wyoming">Wyoming</option>
+                                        </select>
+                                        <p class="text-red-500 text-xs mt-1 hidden" id="stateError">Please select your state.</p>
+                                    </div>
+
+                                    <!-- Zip -->
+                                    <div>
+                                        <label for="name" class="block text-sm font-medium text-gray-700">Zip</label>
+                                        <input type="text" id="zip" name="zip" placeholder="Enter your zip code" class="w-full px-4 py-3 border rounded text-sm" required>
+                                        <p class="text-red-500 text-xs mt-1 hidden" id="zipError">Zip code must be exactly 5 digits.</p>
+                                    </div>
                                 </div>
 
-                                <!-- Phone -->
-                                <div>
-                                    <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
-                                    <input type="text" id="phone" placeholder="Enter your phone number" name="phone" class="w-full px-4 py-3 border rounded text-sm" required>
-                                    <p class="text-red-500 text-xs mt-1 hidden" id="phoneError">Please enter a valid 10-digit US phone number.</p>
-                                </div>
 
                                 <input id="leadid_token" name="universal_leadid" type="hidden" value="" />
 
-                                <!-- Email -->
-                                <div class="col-span-2">
-                                    <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
-                                    <input type="email" id="email" placeholder="Enter your email" name="email" class="w-full px-4 py-3 border rounded text-sm" required>
-                                    <p class="text-red-500 text-xs mt-1 hidden" id="emailError">Please enter a valid email address.</p>
+                                <div class="pt-3">
+                                    <p style="font-size: 12px; line-height:13px; font-weight:300"><input type="checkbox" id="leadid_tcpa_disclosure" required>
+                                        By checking this box, I acknowledge that I have read and agree to the Terms and Conditions, CCPA, and Privacy Policy. I also provide my express consent and electronic signature to Infinite Quote Hub, its Partners, 1-800-TheLaw2, Los Defensores, and/or licensed insurance agents employed with Infinite Quote Hub or our partners. I authorize them to contact me regarding Motor Vehicle Accident services via telephone calls and text messages (SMS/MMS) on the provided number, including calls and pre-recorded messages made using an automated dialing system. I further consent to be contacted outside of the standard state and federal calling windows of 8:00 AM to 9:00 PM local time. This consent applies even if my phone number is currently listed on any state, federal, or corporate Do Not Call list, and regardless of whether it is a wireless number. I understand that my consent is not a requirement for purchasing any goods or services, and I may revoke this consent at any time. Standard message and data rates may apply. Furthermore, I confirm that I am over 18 years of age. For more information, please review our Privacy Policy, Terms and Conditions, and other available links.
+                                    </p>
                                 </div>
 
-                                <!-- State -->
-                                <div>
-                                    <label for="state" class="block text-sm font-medium text-gray-700">State</label>
-                                    <select id="state" name="state" class="w-full px-4 py-3 border rounded text-sm" required>
-                                        <option value="" disabled selected>Select your state</option>
-                                        <!-- State options remain the same -->
-                                    </select>
-                                    <p class="text-red-500 text-xs mt-1 hidden" id="stateError">Please select your state.</p>
+                                <!-- Submit Button -->
+                                <div class="text-center">
+                                    <button type="submit" name="finish"
+                                        class="inline-block uppercase  mt-4 bg-gray-800 text-white font-medium px-6 py-3 rounded-md hover:bg-gray-800 transition">
+                                        SUBMIT
+                                    </button>
                                 </div>
-
-                                <!-- Zip -->
-                                <div>
-                                    <label for="zip" class="block text-sm font-medium text-gray-700">Zip</label>
-                                    <input type="text" id="zip" name="zip" placeholder="Enter your zip code" class="w-full px-4 py-3 border rounded text-sm" required>
-                                    <p class="text-red-500 text-xs mt-1 hidden" id="zipError">Zip code must be exactly 5 digits.</p>
-                                </div>
-                            </div>
-
-                            <input id="leadid_token" name="universal_leadid" type="hidden" value="" />
-
-                            <div class="pt-3">
-                                <p class="text-xs leading-tight">
-                                    <input type="checkbox" id="leadid_tcpa_disclosure" required class="mr-2">
-                                    By checking this box, I acknowledge that I have read and agree to the Terms and Conditions, CCPA, and Privacy Policy...
-                                    <!-- Rest of your legal text -->
-                                </p>
-                            </div>
-
-                            <!-- Submit Button -->
-                            <div class="text-center">
-                                <button type="submit" name="finish" class="inline-block uppercase mt-4 bg-black text-white font-medium px-6 py-3 rounded-md hover:bg-gray-800 transition w-full sm:w-auto">
-                                    SUBMIT
-                                </button>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -558,14 +660,13 @@ if (isset($_POST['finish'])) {
     </div>
 
 
+
     <!-- FAQS SECTIONS -->
-    <div class="flex flex-col lg:flex-row justify-between items-start gap-8 px-4 py-8 max-w-7xl mx-auto lg:mt-[600px]">
-
-
+    <div class="flex flex-col lg:flex-row justify-between items-start gap-8 pl-4 py-0 max-w-fulll mx-auto">
         <!-- FAQ Content -->
-        <div class="w-full lg:max-w-[700px] lg:ml-10 space-y-8" id="faq-content">
+        <div class="w-full md:w-[52%] md:ml-40 space-y-8" id="faq-content">
             <!-- Q/1 -->
-            <div id="q1" class="section-item bg-white p-6 rounded-lg shadow-sm">
+            <div id="q1" class="section-item bg-white p-2 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Is It Worth Hiring A Car Accident Lawyer?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
                     Yes, hiring a car accident lawyer is a crucial step after a crash. While many cases settle before trial, an experienced attorney plays a pivotal role in negotiating with insurance companies to secure the maximum possible compensation. They also have the expertise to take your case to trial if that becomes the best path to justice. Most importantly, a lawyer understands the complexities of personal injury law and can leverage all available evidence to build the strongest possible case on your behalf.
@@ -681,7 +782,7 @@ if (isset($_POST['finish'])) {
             </div>
         </div>
         <!-- FAQ's Sidebar - Sticky on large screens -->
-        <div class="bg-gray-300 flex flex-col gap-5 py-5 px-4 w-full lg:max-w-[350px] lg:sticky lg:top-5 lg:h-[90vh] lg:overflow-y-auto" id="faq-sidebar">
+        <div class="bg-gray-300 flex md:w-[48%] flex-col gap-5 py-5 px-4 w-full  lg:sticky lg:top-0 md:sticky md:top-0 md:h-[100vh] lg:h-[100vh] lg:overflow-y-auto" id="faq-sidebar">
             <div class="my-5">
                 <h2 class=" text-3xl lg:text-[40px] font-semibold">
                     Explore This Page
@@ -690,44 +791,44 @@ if (isset($_POST['finish'])) {
             </div>
 
             <!-- FAQ links -->
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-1">
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q1">
-                    <img src="./images/arrow (2).png" alt="" class="transition-transform duration-200 w-4 h-4">
+                    <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q1" class=" text-base lg:text-lg hover:font-bold  transition-colors">Is It Worth Hiring A Car Accident Lawyer?</a>
                 </div>
 
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q2">
-                    <img src="./images/arrow (2).png" alt="" class="transition-transform duration-200 w-4 h-4">
+                    <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q2" class=" text-base lg:text-lg hover:font-bold  transition-colors">How Does A Car Accident Lawyer Help?</a>
                 </div>
 
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q3">
-                    <img src="./images/arrow (2).png" alt="" class="transition-transform duration-200 w-4 h-4">
+                    <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q3" class=" text-base lg:text-lg hover:font-bold  transition-colors">How Much Does A Car Accident Lawyer Cost?</a>
                 </div>
 
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q4">
-                    <img src="./images/arrow (2).png" alt="" class="transition-transform duration-200 w-4 h-4">
+                    <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q4" class=" text-base lg:text-lg hover:font-bold  transition-colors">Do I Need A Lawyer For Car Accidents?</a>
                 </div>
 
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q5">
-                    <img src="./images/arrow (2).png" alt="" class="transition-transform duration-200 w-4 h-4">
+                    <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q5" class=" text-base lg:text-lg hover:font-bold  transition-colors">What If My Case Seems Too Small For An Attorney To Take?</a>
                 </div>
 
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q6">
-                    <img src="./images/arrow (2).png" alt="" class="transition-transform duration-200 w-4 h-4">
+                    <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q6" class=" text-base lg:text-lg hover:font-bold  transition-colors">What Should I Bring To My First Meeting With A Car Accident Lawyer?</a>
                 </div>
 
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q7">
-                    <img src="./images/arrow (2).png" alt="" class="transition-transform duration-200 w-4 h-4">
+                    <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q7" class=" text-base lg:text-lg hover:font-bold  transition-colors">How Do I Know My Car Accident Lawyer Will Approach My Case In The Right Way?</a>
                 </div>
 
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q8">
-                    <img src="./images/arrow (2).png" alt="" class="transition-transform duration-200 w-4 h-4">
+                    <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q8" class=" text-base lg:text-lg hover:font-bold transition-colors">Should I Get A Lawyer For A Car Accident?</a>
                 </div>
             </div>
@@ -748,16 +849,16 @@ if (isset($_POST['finish'])) {
     <!-- <div class="bg-gray-100 py-12">
     <div class="max-w-5xl mx-auto grid md:grid-cols-2 grid-cols-1 rounded-lg overflow-hidden">
       <div>
-        <img src="./images/1.jpg" class="h-[300px] w-full object-cover" alt="">
+        <img src="../images/1.jpg" class="h-[300px] w-full object-cover" alt="">
       </div>
       <div>
-        <img src="./images/2.jpg" class="h-[300px] w-full object-cover" alt="">
+        <img src="../images/2.jpg" class="h-[300px] w-full object-cover" alt="">
       </div>
       <div>
-        <img src="./images/3.jpg" class="h-[300px] w-full object-cover" alt="">
+        <img src="../images/3.jpg" class="h-[300px] w-full object-cover" alt="">
       </div>
       <div>
-        <img src="./images/4.jpg" class="h-[300px] w-full object-cover" alt="">
+        <img src="../images/4.jpg" class="h-[300px] w-full object-cover" alt="">
       </div>
     </div>
   </div> -->
@@ -777,7 +878,7 @@ if (isset($_POST['finish'])) {
 
             <div class="flex gap-2 items">
                 <a href="https://goadvertising.io/" target="_blank">
-                    <img src="./images/advertising.png" class="h-6" alt=""></a>
+                    <img src="../images/advertising.png" class="h-6" alt=""></a>
                 <p class="text-[12px] text-gray-700">Powered by Go Advertising LLC</p>
             </div>
 
