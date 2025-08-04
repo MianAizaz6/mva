@@ -394,51 +394,80 @@ if (isset($_POST['finish'])) {
 
     <!-- Header -->
 
-    <header class="py-2 md:px-0 px-4 max-w-7xl mx-auto  bg-white flex items-center justify-between border-b border-gray-200">
+    <!-- HEADER -->
+    <header class="py-2 md:px-0 px-4 max-w-7xl mx-auto bg-white flex items-center justify-between border-b border-gray-200 relative z-20">
+        <div class="flex items-center gap-3">
+            <a href="https://infinitequotehub.com/">
+                <img src="../images/logo.png" alt="Infinite Quote Hub Logo" class="w-28 ml-3" />
+            </a>
+        </div>
 
-        <div class="flex items-center gap-3 ">
+        <!-- Desktop Menu -->
+        <div class="hidden lg:flex justify-center items-center gap-4">
+                <h2 class="text-xl font-semibold">CALL 24/7</h2>
+            <a href="tel:833-615-2933" class="bg-green-700 text-white flex gap-2 items-center font-bold uppercase p-[12px_25px] rounded-md">(833) 615 2933</a>
+            <a href="#form" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-bold text-sm sm:text-base shadow-md">SCHEDULE A FREE CONSULTATION</a>
+        </div>
+
+        <!-- Hamburger Button -->
+        <div class="lg:hidden">
+            <button id="menu-toggle" class="text-gray-800 focus:outline-none z-50 relative">
+                <!-- Hamburger Icon -->
+                <svg id="hamburger-icon" class="w-8 h-8 block" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+                </svg>
+                <!-- Cross Icon -->
+                <svg id="close-icon" class="w-8 h-8 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- MOBILE OVERLAY BACKGROUND + MENU -->
+    <div id="mobile-wrapper" class="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm scale-y-0 origin-top transition-all duration-300 ease-in-out lg:hidden">
+        <div id="mobile-menu" class="max-w-7xl mx-auto px-4 py-4 bg-white relative">
+            <!-- Optional Close Button Inside Menu -->
 
             <a href="https://infinitequotehub.com/">
                 <img src="../images/logo.png" alt="Infinite Quote Hub Logo" class="w-28 ml-3" />
             </a>
-            <!-- <span class="text-lg font-bold tracking-wide uppercase">Infinite Quote Hub</span> -->
+            <button id="menu-close" class="absolute top-4 right-4 text-gray-700 focus:outline-none lg:hidden">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+
+            <div class="flex flex-col gap-4 pt-8">
+                <div class="flex flex-col gap-2 mt-3 text-center">
+                    <a href="../practice_area.php" class="text-gray-700 font-medium text-[17px]">PRACTICE AREAS</a>
+                    <a href="../location.php" class="text-gray-700 font-medium text-[17px]">LOCATIONS</a>
+                    <a href="../about.php" class="text-gray-700 font-medium text-[17px]">ABOUT US</a>
+                    <a href="../contact.php" class="text-gray-700 font-medium text-[17px]">CONTACT US</a>
+                </div>
+                <a href="tel:8336152933" class="bg-gray-800 text-white px-6 py-3 rounded-md font-semibold text-sm shadow-md text-center">CALL 24/7</a>
+                <a href="tel:833-615-2933" class="bg-green-700 text-white font-semibold uppercase px-6 py-3 rounded-md text-center">(833) 615 2933</a>
+                <a href="#form" class="bg-gray-800 text-white px-6 py-3 rounded-md font-semibold text-sm shadow-md text-center">SCHEDULE A FREE CONSULTATION</a>
+            </div>
         </div>
-        <div class="flex gap-4">
-            <a href="tel:8336152933" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-semibold text-sm sm:text-base shadow-md">
-                CALL 24/7
-            </a>
-            <a href="tel:833-615-2933"
-                class="bg-green-700 text-white flex gap-2 items-center  font-semibold uppercase p-[12px_25px] rounded-md ">
-                (833) 615 2933</a>
+    </div>
 
-            <!-- <a href="tel:8334030913"
-                class="hidden md:inline-flex items-center gap-2 bg-transparent text-green-700  text-md transition-all duration-200">
 
-                Agentes en Español (833-403-0913)
-            </a> -->
-
-            <a href="#form" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-semibold text-sm sm:text-base shadow-md">
-                SCHEDULE A FREE CONSULTATION
-            </a>
-        </div>
-
-    </header>
 
 
     <div id="contact" class="relative bg-cover bg-center bg-no-repeat md:min-h-[85vh]" style="background-image: url('../images/car accident.jpg');">
         <div class="bg-black/60 w-full h-full absolute inset-0 z-0"></div>
 
-        <!-- Navigation Links -->
-        <div class="flex justify-end gap-6 md:max-w-7xl lg:max-w-7xl mx-auto py-3 relative z-10">
-            <a href="" class="text-white font-medium text-[17px]">PRACTICE AREAS</a>
-            <a href="" class="text-white font-medium text-[17px]">LOCATIONS</a>
-            <a href="" class="text-white font-medium text-[17px]">ABOUT US</a>
-            <a href="" class="text-white font-medium text-[17px]">CONTACT US</a>
+        <div class="hidden lg:flex justify-end gap-6 md:max-w-7xl lg:max-w-7xl mx-auto py-3 absolute top-0 right-0 left-0 z-10">
+            <a href="../practice_area.php" class="text-white font-medium text-[17px]">PRACTICE AREAS</a>
+            <a href="../location.php" class="text-white font-medium text-[17px]">LOCATIONS</a>
+            <a href="../about.php" class="text-white font-medium text-[17px]">ABOUT US</a>
+            <a href="../contact.php" class="text-white font-medium text-[17px]">CONTACT US</a>
         </div>
 
         <!-- Title -->
-        <div class="pt-6 max-w-7xl mx-auto">
-            <h2 class="text-white text-center relative z-10 font-semibold lg:text-[62px] sm:text-xl pb-6">
+        <div class="pt-14 max-w-7xl mx-auto">
+            <h2 class="text-white text-center relative z-10 font-semibold lg:text-[62px] sm:text-xl ">
                 CAR ACCIDENT ATTORNEYS
             </h2>
         </div>
@@ -480,178 +509,207 @@ if (isset($_POST['finish'])) {
 
 
 
-    <div class="relative px-4 w-full max-w-6xl mx-auto py-16 z-20">
-        <div class="flex flex-col lg:flex-row gap-6 lg:gap-10">
-            <!-- Cards Container -->
-            <div class="grid grid-cols-1 bg-[#f9f9f9] gap-10 justify-center h-fit w-full lg:w-3/5">
-                <!-- Cards Row -->
-                <div class="flex flex-col justify-between sm:flex-row gap-6 w-full">
-                    <!-- Card 1 -->
-                    <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
-                        <div class="px-2 mt-6">
-                            <h2 class="font-bold text-[18px] text-center">Local Attorneys National Network</h2>
-                            <p class="text-[10px] text-center mt-2">We will find you the best local attorney for your case.</p>
+    <div class=" relative  w-full max-w-10xl  py-16 z-20">
+        <div class="bg-gray-800 px-10 py-4">
+            <div class=" flex flex-col justify-center items-center lg:flex-row gap-6 lg:gap-10">
+                <!-- Cards Container -->
+                <div class="bg-gray-800 grid grid-cols-1 bg-[#f9f9f9] gap-14 justify-center h-fit w-full lg:w-3/5">
+                    <!-- Cards Row -->
+                    <div class="bg-gray-800 flex flex-col justify-between sm:flex-row gap-6 w-full">
+                        <!-- Card 1 -->
+                        <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
+                            <div class="px-2 mt-6">
+                                <h2 class="font-bold text-[18px] text-center"> 100+ Licensed Attorneys
+                                </h2>
+                            </div>
+                            <div class="flex flex-grow justify-center items-center">
+                                <img src="../images/card 1.png" alt="" class="w-[120px] h-[120px] object-contain">
+                            </div>
                         </div>
-                        <div class="flex flex-grow justify-center items-center">
-                            <img src="../images/card 1.png" alt="" class="w-[120px] h-[120px] object-contain">
+
+                        <!-- Card 2 -->
+                        <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
+                            <div class="px-2 mt-6">
+                                <h2 class="font-bold text-[18px] text-center">35+ Years of Service
+                                </h2>
+                            </div>
+                            <div class="flex flex-grow justify-center items-center">
+                                <img src="../images/card 2.png" alt="" class="w-[100px] h-[100px] object-contain">
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
+                            <div class="px-2 mt-6">
+                                <h2 class="font-bold text-[18px] text-center">Helped over 500,000 Clients</h2>
+                            </div>
+                            <div class="flex flex-grow justify-center items-center">
+                                <img src="../images/truck.png" alt="" class="w-[100px] h-[100px] object-contain">
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Card 2 -->
-                    <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
-                        <div class="px-2 mt-6">
-                            <h2 class="font-bold text-[18px] text-center">No Win, No Fee</h2>
-                            <p class="text-[10px] text-center mt-2">If we don't win your case, there is no fee to you.</p>
-                        </div>
-                        <div class="flex flex-grow justify-center items-center">
-                            <img src="../images/card 2.png" alt="" class="w-[100px] h-[100px] object-contain">
-                        </div>
-                    </div>
 
-                    <!-- Card 3 -->
-                    <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
-                        <div class="px-2 mt-6">
-                            <h2 class="font-bold text-[18px] text-center">Experienced Team</h2>
-                            <p class="text-[10px] text-center mt-2">For over 35+ years, we have helped thousands of people get the compensation they deserve.</p>
+                    <div class="bg-gray-800 flex flex-col justify-between sm:flex-row gap-6 w-full">
+
+                        <!-- card 4 -->
+                        <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
+                            <div class="px-2 mt-6">
+                                <h2 class="font-bold text-[18px] text-center">No Win, No Fee
+                                </h2>
+                            </div>
+                            <div class="flex flex-grow justify-center items-center">
+                                <img src="../images/truck.png" alt="" class="w-[100px] h-[100px] object-contain">
+                            </div>
                         </div>
-                        <div class="flex flex-grow justify-center items-center">
-                            <img src="../images/truck.png" alt="" class="w-[100px] h-[100px] object-contain">
+
+
+                        <!-- card 5 -->
+                        <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
+                            <div class="px-2 mt-6">
+                                <h2 class="font-bold text-[18px] text-center">24/7 Available
+                                </h2>
+                            </div>
+                            <div class="flex flex-grow justify-center items-center">
+                                <img src="../images/truck.png" alt="" class="w-[100px] h-[100px] object-contain">
+                            </div>
                         </div>
+
+
+                        <!-- card 6 -->
+                        <div class="w-full sm:w-[200px] h-[250px] bg-gray-200 flex flex-col rounded-md">
+                            <div class="px-2 mt-6">
+                                <h2 class="font-bold text-[18px] text-center"> Connect to Attorney in Less than 10 Minutes
+                                </h2>
+                            </div>
+                            <div class="flex flex-grow justify-center items-center">
+                                <img src="../images/truck.png" alt="" class="w-[100px] h-[100px] object-contain">
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
-                <!-- Heading and Image Section -->
-                <div class="lg:ml-0">
-                    <h2 class="text-[32px] sm:text-[34px] font-bold text-center leading-tight mb-6">
-                        Get the Settlement Offer you <br class="hidden lg:block" /> Deserve
-                    </h2>
-
-                    <!-- Car Accident Image in Red Area -->
-                    <div class="flex justify-center lg:justify-start">
-                        <img src="../images/accidented_car.jpg" alt="Car Accident" class="w-full  object-cover max-h-[250px] rounded-md shadow-md" />
-                    </div>
-                </div>
-            </div>
-
-            <!-- Form Container -->
-            <div class="w-full md:w-2/5 lg:max-w-xl bg-white p-6 rounded-md shadow-lg min-h-[600px]">
-                <div class="">
-                    <!-- Replace this div with your form -->
-                    <div class="w-full h-full flex items-center justify-center text-gray-500 text-sm italic">
-                        <div>
-                            <h2 class="text-2xl font-semibold text-center text-black mb-4">Get Connected To Our Legal Team</h2>
+                <!-- Form Container -->
+                <div class="w-full md:w-2/5 lg:max-w-xl bg-white p-6 rounded-md shadow-lg min-h-[600px]">
+                    <div class="">
+                        <!-- Replace this div with your form -->
+                        <div class="w-full h-full flex items-center justify-center text-gray-500 text-sm italic">
+                            <div>
+                                <h2 class="text-2xl font-semibold text-center text-black mb-4">Get Connected To Our Legal Team</h2>
 
 
-                            <form action="index.php" method="POST" class="space-y-3">
-                                <!-- Name -->
-                                <div class="grid md:grid-cols-2 grid-cols-1 gap-3">
+                                <form action="index.php" method="POST" class="space-y-3">
                                     <!-- Name -->
-                                    <div>
-                                        <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
-                                        <input type="text" id="fullName" name="full_name" placeholder="Enter your full name" class="w-full px-4 py-3 border rounded text-sm" required>
-                                        <p class="text-red-500 text-xs mt-1 hidden" id="nameError">Please enter a valid name (letters only).</p>
+                                    <div class="grid md:grid-cols-2 grid-cols-1 gap-3">
+                                        <!-- Name -->
+                                        <div>
+                                            <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                                            <input type="text" id="fullName" name="full_name" placeholder="Enter your full name" class="w-full px-4 py-3 border rounded text-sm" required>
+                                            <p class="text-red-500 text-xs mt-1 hidden" id="nameError">Please enter a valid name (letters only).</p>
+                                        </div>
+
+                                        <!-- Phone -->
+                                        <div>
+                                            <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                                            <input type="text" id="phone" placeholder="Enter your phone number" name="phone" class="w-full px-4 py-3 border rounded text-sm" required>
+                                            <p class="text-red-500 text-xs mt-1 hidden" id="phoneError">Please enter a valid 10-digit US phone number.</p>
+                                        </div>
+
+                                        <input id="leadid_token" name="universal_leadid" type="hidden" value="" />
+
+                                        <!-- Email -->
+                                        <div class="col-span-2">
+                                            <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                                            <input type="email" id="email" placeholder="Enter your email" name="email" class="w-full px-4 py-3 border rounded text-sm" required>
+                                            <p class="text-red-500 text-xs mt-1 hidden" id="emailError">Please enter a valid email address.</p>
+                                        </div>
+
+                                        <!-- State -->
+                                        <div>
+                                            <label for="name" class="block text-sm font-medium text-gray-700">State </label>
+                                            <select id="state" name="state" class="w-full px-4 py-3 border rounded text-sm" required>
+                                                <option value="" disabled selected>Select your state</option>
+                                                <option value="Alabama">Alabama</option>
+                                                <option value="Alaska">Alaska</option>
+                                                <option value="Arizona">Arizona</option>
+                                                <option value="Arkansas">Arkansas</option>
+                                                <option value="California">California</option>
+                                                <option value="Colorado">Colorado</option>
+                                                <option value="Connecticut">Connecticut</option>
+                                                <option value="Delaware">Delaware</option>
+                                                <option value="Florida">Florida</option>
+                                                <option value="Georgia">Georgia</option>
+                                                <option value="Hawaii">Hawaii</option>
+                                                <option value="Idaho">Idaho</option>
+                                                <option value="Illinois">Illinois</option>
+                                                <option value="Indiana">Indiana</option>
+                                                <option value="Iowa">Iowa</option>
+                                                <option value="Kansas">Kansas</option>
+                                                <option value="Kentucky">Kentucky</option>
+                                                <option value="Louisiana">Louisiana</option>
+                                                <option value="Maine">Maine</option>
+                                                <option value="Maryland">Maryland</option>
+                                                <option value="Massachusetts">Massachusetts</option>
+                                                <option value="Michigan">Michigan</option>
+                                                <option value="Minnesota">Minnesota</option>
+                                                <option value="Mississippi">Mississippi</option>
+                                                <option value="Missouri">Missouri</option>
+                                                <option value="Montana">Montana</option>
+                                                <option value="Nebraska">Nebraska</option>
+                                                <option value="Nevada">Nevada</option>
+                                                <option value="New Hampshire">New Hampshire</option>
+                                                <option value="New Jersey">New Jersey</option>
+                                                <option value="New Mexico">New Mexico</option>
+                                                <option value="New York">New York</option>
+                                                <option value="North Carolina">North Carolina</option>
+                                                <option value="North Dakota">North Dakota</option>
+                                                <option value="Ohio">Ohio</option>
+                                                <option value="Oklahoma">Oklahoma</option>
+                                                <option value="Oregon">Oregon</option>
+                                                <option value="Pennsylvania">Pennsylvania</option>
+                                                <option value="Rhode Island">Rhode Island</option>
+                                                <option value="South Carolina">South Carolina</option>
+                                                <option value="South Dakota">South Dakota</option>
+                                                <option value="Tennessee">Tennessee</option>
+                                                <option value="Texas">Texas</option>
+                                                <option value="Utah">Utah</option>
+                                                <option value="Vermont">Vermont</option>
+                                                <option value="Virginia">Virginia</option>
+                                                <option value="Washington">Washington</option>
+                                                <option value="West Virginia">West Virginia</option>
+                                                <option value="Wisconsin">Wisconsin</option>
+                                                <option value="Wyoming">Wyoming</option>
+                                            </select>
+                                            <p class="text-red-500 text-xs mt-1 hidden" id="stateError">Please select your state.</p>
+                                        </div>
+
+                                        <!-- Zip -->
+                                        <div>
+                                            <label for="name" class="block text-sm font-medium text-gray-700">Zip</label>
+                                            <input type="text" id="zip" name="zip" placeholder="Enter your zip code" class="w-full px-4 py-3 border rounded text-sm" required>
+                                            <p class="text-red-500 text-xs mt-1 hidden" id="zipError">Zip code must be exactly 5 digits.</p>
+                                        </div>
                                     </div>
 
-                                    <!-- Phone -->
-                                    <div>
-                                        <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
-                                        <input type="text" id="phone" placeholder="Enter your phone number" name="phone" class="w-full px-4 py-3 border rounded text-sm" required>
-                                        <p class="text-red-500 text-xs mt-1 hidden" id="phoneError">Please enter a valid 10-digit US phone number.</p>
-                                    </div>
 
                                     <input id="leadid_token" name="universal_leadid" type="hidden" value="" />
 
-                                    <!-- Email -->
-                                    <div class="col-span-2">
-                                        <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
-                                        <input type="email" id="email" placeholder="Enter your email" name="email" class="w-full px-4 py-3 border rounded text-sm" required>
-                                        <p class="text-red-500 text-xs mt-1 hidden" id="emailError">Please enter a valid email address.</p>
+                                    <div class="pt-3">
+                                        <p style="font-size: 12px; line-height:13px; font-weight:300"><input type="checkbox" id="leadid_tcpa_disclosure" required>
+                                            By checking this box, I acknowledge that I have read and agree to the Terms and Conditions, CCPA, and Privacy Policy. I also provide my express consent and electronic signature to Infinite Quote Hub, its Partners, 1-800-TheLaw2, Los Defensores, and/or licensed insurance agents employed with Infinite Quote Hub or our partners. I authorize them to contact me regarding Motor Vehicle Accident services via telephone calls and text messages (SMS/MMS) on the provided number, including calls and pre-recorded messages made using an automated dialing system. I further consent to be contacted outside of the standard state and federal calling windows of 8:00 AM to 9:00 PM local time. This consent applies even if my phone number is currently listed on any state, federal, or corporate Do Not Call list, and regardless of whether it is a wireless number. I understand that my consent is not a requirement for purchasing any goods or services, and I may revoke this consent at any time. Standard message and data rates may apply. Furthermore, I confirm that I am over 18 years of age. For more information, please review our Privacy Policy, Terms and Conditions, and other available links.
+                                        </p>
                                     </div>
 
-                                    <!-- State -->
-                                    <div>
-                                        <label for="name" class="block text-sm font-medium text-gray-700">State </label>
-                                        <select id="state" name="state" class="w-full px-4 py-3 border rounded text-sm" required>
-                                            <option value="" disabled selected>Select your state</option>
-                                            <option value="Alabama">Alabama</option>
-                                            <option value="Alaska">Alaska</option>
-                                            <option value="Arizona">Arizona</option>
-                                            <option value="Arkansas">Arkansas</option>
-                                            <option value="California">California</option>
-                                            <option value="Colorado">Colorado</option>
-                                            <option value="Connecticut">Connecticut</option>
-                                            <option value="Delaware">Delaware</option>
-                                            <option value="Florida">Florida</option>
-                                            <option value="Georgia">Georgia</option>
-                                            <option value="Hawaii">Hawaii</option>
-                                            <option value="Idaho">Idaho</option>
-                                            <option value="Illinois">Illinois</option>
-                                            <option value="Indiana">Indiana</option>
-                                            <option value="Iowa">Iowa</option>
-                                            <option value="Kansas">Kansas</option>
-                                            <option value="Kentucky">Kentucky</option>
-                                            <option value="Louisiana">Louisiana</option>
-                                            <option value="Maine">Maine</option>
-                                            <option value="Maryland">Maryland</option>
-                                            <option value="Massachusetts">Massachusetts</option>
-                                            <option value="Michigan">Michigan</option>
-                                            <option value="Minnesota">Minnesota</option>
-                                            <option value="Mississippi">Mississippi</option>
-                                            <option value="Missouri">Missouri</option>
-                                            <option value="Montana">Montana</option>
-                                            <option value="Nebraska">Nebraska</option>
-                                            <option value="Nevada">Nevada</option>
-                                            <option value="New Hampshire">New Hampshire</option>
-                                            <option value="New Jersey">New Jersey</option>
-                                            <option value="New Mexico">New Mexico</option>
-                                            <option value="New York">New York</option>
-                                            <option value="North Carolina">North Carolina</option>
-                                            <option value="North Dakota">North Dakota</option>
-                                            <option value="Ohio">Ohio</option>
-                                            <option value="Oklahoma">Oklahoma</option>
-                                            <option value="Oregon">Oregon</option>
-                                            <option value="Pennsylvania">Pennsylvania</option>
-                                            <option value="Rhode Island">Rhode Island</option>
-                                            <option value="South Carolina">South Carolina</option>
-                                            <option value="South Dakota">South Dakota</option>
-                                            <option value="Tennessee">Tennessee</option>
-                                            <option value="Texas">Texas</option>
-                                            <option value="Utah">Utah</option>
-                                            <option value="Vermont">Vermont</option>
-                                            <option value="Virginia">Virginia</option>
-                                            <option value="Washington">Washington</option>
-                                            <option value="West Virginia">West Virginia</option>
-                                            <option value="Wisconsin">Wisconsin</option>
-                                            <option value="Wyoming">Wyoming</option>
-                                        </select>
-                                        <p class="text-red-500 text-xs mt-1 hidden" id="stateError">Please select your state.</p>
+                                    <!-- Submit Button -->
+                                    <div class="text-center">
+                                        <button type="submit" name="finish"
+                                            class="inline-block uppercase  mt-4 bg-gray-800 text-white font-medium px-6 py-3 rounded-md hover:bg-gray-800 transition">
+                                            SUBMIT
+                                        </button>
                                     </div>
-
-                                    <!-- Zip -->
-                                    <div>
-                                        <label for="name" class="block text-sm font-medium text-gray-700">Zip</label>
-                                        <input type="text" id="zip" name="zip" placeholder="Enter your zip code" class="w-full px-4 py-3 border rounded text-sm" required>
-                                        <p class="text-red-500 text-xs mt-1 hidden" id="zipError">Zip code must be exactly 5 digits.</p>
-                                    </div>
-                                </div>
-
-
-                                <input id="leadid_token" name="universal_leadid" type="hidden" value="" />
-
-                                <div class="pt-3">
-                                    <p style="font-size: 12px; line-height:13px; font-weight:300"><input type="checkbox" id="leadid_tcpa_disclosure" required>
-                                        By checking this box, I acknowledge that I have read and agree to the Terms and Conditions, CCPA, and Privacy Policy. I also provide my express consent and electronic signature to Infinite Quote Hub, its Partners, 1-800-TheLaw2, Los Defensores, and/or licensed insurance agents employed with Infinite Quote Hub or our partners. I authorize them to contact me regarding Motor Vehicle Accident services via telephone calls and text messages (SMS/MMS) on the provided number, including calls and pre-recorded messages made using an automated dialing system. I further consent to be contacted outside of the standard state and federal calling windows of 8:00 AM to 9:00 PM local time. This consent applies even if my phone number is currently listed on any state, federal, or corporate Do Not Call list, and regardless of whether it is a wireless number. I understand that my consent is not a requirement for purchasing any goods or services, and I may revoke this consent at any time. Standard message and data rates may apply. Furthermore, I confirm that I am over 18 years of age. For more information, please review our Privacy Policy, Terms and Conditions, and other available links.
-                                    </p>
-                                </div>
-
-                                <!-- Submit Button -->
-                                <div class="text-center">
-                                    <button type="submit" name="finish"
-                                        class="inline-block uppercase  mt-4 bg-gray-800 text-white font-medium px-6 py-3 rounded-md hover:bg-gray-800 transition">
-                                        SUBMIT
-                                    </button>
-                                </div>
-                            </form>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -941,6 +999,35 @@ if (isset($_POST['finish'])) {
     </script>
     <noscript><img src='//create.leadid.com/noscript.gif?lac=47C1746C-8A81-9E03-394F-639E75E3F303&lck=5a9ebdba-b6f8-b36a-d86e-a76ed1b6f1e7&snippet_version=2' /></noscript>
 
+
+
+
+
+     <!-- SCRIPT -->
+    <script>
+        const toggleBtn = document.getElementById('menu-toggle');
+        const wrapper = document.getElementById('mobile-wrapper');
+        const hamburgerIcon = document.getElementById('hamburger-icon');
+        const closeIcon = document.getElementById('close-icon');
+        const menuClose = document.getElementById('menu-close');
+
+        // Toggle open/close
+        toggleBtn.addEventListener('click', () => {
+            const isOpen = wrapper.classList.contains('scale-y-100');
+            wrapper.classList.toggle('scale-y-0');
+            wrapper.classList.toggle('scale-y-100');
+            hamburgerIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
+
+        // Close with inside cross
+        menuClose.addEventListener('click', () => {
+            wrapper.classList.add('scale-y-0');
+            wrapper.classList.remove('scale-y-100');
+            hamburgerIcon.classList.remove('hidden');
+            closeIcon.classList.add('hidden');
+        });
+    </script>
 </body>
 
 </html>
