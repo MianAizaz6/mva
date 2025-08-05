@@ -463,7 +463,7 @@ if (isset($_POST['finish'])) {
         </div>
 
         <!-- Title -->
-        <div class="pt-14 max-w-7xl mx-auto">
+        <div class="pt-16 lg:pt-20 max-w-7xl mx-auto">
             <h2 class="text-white text-center relative z-10 font-semibold lg:text-[62px] sm:text-xl ">
                 CAR ACCIDENT ATTORNEYS
             </h2>
@@ -506,9 +506,9 @@ if (isset($_POST['finish'])) {
 
 
 
-    <div class=" relative  w-full max-w-10xl z-20" id="form">
+    <div class="relative  w-full z-20" id="form">
         <div class="bg-gray-800 px-10 py-16">
-            <div class=" flex flex-col justify-center items-center lg:flex-row gap-6 lg:gap-10">
+            <div class=" flex flex-col justify-center max-w-[1440px] mx-auto items-center lg:flex-row gap-6 lg:gap-10">
                 <!-- Cards Container -->
                 <div class="bg-gray-800 grid grid-cols-1 bg-[#f9f9f9] gap-14 justify-center h-fit w-full lg:w-3/5">
                     <!-- Cards Row -->
@@ -719,7 +719,7 @@ if (isset($_POST['finish'])) {
     <!-- FAQS SECTIONS -->
     <div class="flex flex-col lg:flex-row justify-between items-start gap-8 pl-4 py-0 max-w-fulll mx-auto">
         <!-- FAQ Content -->
-        <div class="w-full md:w-[52%] md:ml-40 space-y-8" id="faq-content">
+        <div class="w-full md:w-[52%] md:ml-40 py-8 space-y-8" id="faq-content">
             <!-- Q/1 -->
             <div id="q1" class="section-item bg-white p-2 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Is It Worth Hiring A Car Accident Lawyer?</h2>

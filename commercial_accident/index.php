@@ -462,7 +462,7 @@ if (isset($_POST['finish'])) {
             <a href="../contact.php" class="text-white font-medium text-[17px]">CONTACT US</a>
         </div>
         <!-- Title -->
-        <div class="pt-14 max-w-7xl mx-auto">
+        <div class="pt-16 lg:pt-20 max-w-7xl mx-auto">
             <h2 class="text-white text-center relative z-10 font-semibold lg:text-[62px] sm:text-xl lg:pr-10 pr-0 ">
                 COMMERCIAL ACCIDENT ATTORNEYS
             </h2>
@@ -505,9 +505,9 @@ if (isset($_POST['finish'])) {
 
 
     <!-- CARD & FORM SECTION -->
-    <div class=" relative  w-full max-w-10xl z-20" id="form">
+    <div class=" relative  w-full z-20" id="form">
         <div class="bg-gray-800 px-10 py-16">
-            <div class=" flex flex-col justify-center items-center lg:flex-row gap-6 lg:gap-10">
+            <div class=" flex flex-col max-w-[1440px] mx-auto justify-center items-center lg:flex-row gap-6 lg:gap-10">
                 <!-- Cards Container -->
                 <div class="bg-gray-800 grid grid-cols-1 bg-[#f9f9f9] gap-14 justify-center h-fit w-full lg:w-3/5">
                     <!-- Cards Row -->
@@ -718,7 +718,7 @@ if (isset($_POST['finish'])) {
     <!-- FAQS SECTIONS -->
     <div class="flex flex-col lg:flex-row justify-between items-start gap-8 pl-4 py-0 max-w-fulll mx-auto">
         <!-- FAQ ANSWER -->
-        <div class="w-full md:w-[52%] md:ml-40 space-y-8" id="faq-content">
+        <div class="w-full md:w-[52%] py-8 md:ml-40 space-y-8" id="faq-content">
             <!-- Q/1 -->
             <div id="q1" class="section-item bg-white p-2 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Is It Worth Hiring A Commercial Vehicle Accident Lawyer?</h2>
@@ -786,10 +786,10 @@ if (isset($_POST['finish'])) {
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Monetary, Or Economic Damages</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Economic damages are for quantifiable financial losses. These include:</p>
                 <div class="ml-6 mt-4 space-y-2">
-                    <h2 class="font-bold">●	Lost wages</h2>
-                    <h2 class="font-bold">●	Loss of future earning capacity</h2>
-                    <h2 class="font-bold">●	Property loss</h2>
-                    <h2 class="font-bold">●	Past and future medical expenses</h2>
+                    <h2 class="font-bold">● Lost wages</h2>
+                    <h2 class="font-bold">● Loss of future earning capacity</h2>
+                    <h2 class="font-bold">● Property loss</h2>
+                    <h2 class="font-bold">● Past and future medical expenses</h2>
                 </div>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3"> Punitive Damages</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Punitive damages are distinct. They are awarded in limited cases to punish defendants for particularly malicious or reckless behavior (such as drunk driving) and to deter others from similar actions. These damages can significantly increase the total value of a claim, potentially into millions of dollars. An experienced lawyer can determine if you are entitled to punitive damages.</p>
@@ -810,7 +810,7 @@ if (isset($_POST['finish'])) {
                     While you can try to handle a commercial vehicle accident dispute on your own, it is strongly discouraged. As a victim, you are up against a system that is not on your side. Defendants can be hostile, and insurance companies will often outright reject your claim or offer a minimal settlement. A commercial vehicle accident attorney is your advocate, handling your case from start to finish and fighting relentlessly to secure the maximum compensation you deserve.
                 </p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Finding The Right Attorney</h2>
-                <p  class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Knowing you need a lawyer is one thing; finding the right one is another. Here are some key tips for making the best decision:</p>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Knowing you need a lawyer is one thing; finding the right one is another. Here are some key tips for making the best decision:</p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Ask for an attorney</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">It can be challenging to assess an attorney's quality from a simple online search. Look for an experienced attorney with a strong reputation.</p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Understand the fee structure</h2>
@@ -828,7 +828,7 @@ if (isset($_POST['finish'])) {
             <div id="q6" class="section-item bg-white p-6 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">What If My Case Seems Too Small For An Attorney To Take?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                   Even if you believe your case is minor, you should still contact a commercial vehicle accident lawyer. They can assess the evidence and determine if there’s a viable path to compensation. While some attorneys may decline cases with small settlement potential due to overhead costs, many will still work to “build up” the value of the case to a reasonable level. If an attorney is unwilling to do that, you may want to explore hiring a different one.
+                    Even if you believe your case is minor, you should still contact a commercial vehicle accident lawyer. They can assess the evidence and determine if there’s a viable path to compensation. While some attorneys may decline cases with small settlement potential due to overhead costs, many will still work to “build up” the value of the case to a reasonable level. If an attorney is unwilling to do that, you may want to explore hiring a different one.
                 </p>
             </div>
 
@@ -839,12 +839,12 @@ if (isset($_POST['finish'])) {
                     A well-prepared first meeting is a great way to start your case. You should create a folder with copies of all documents related to your case, including:
                 </p>
                 <div class="ml-6 mt-4 space-y-2">
-                    <p class="font-bold">●	Police reports</p>
-                    <p class="font-bold">●	Accident descriptions</p>
-                    <p class="font-bold">●  Photos and videos of the scene</p>
-                    <p class="font-bold">●	Paycheck stubs to document wage loss</p>
-                    <p class="font-bold">●	Medical bills and records</p>
-                    <p class="font-bold">●	Any communications you've had with your insurance company</p>
+                    <p class="font-bold">● Police reports</p>
+                    <p class="font-bold">● Accident descriptions</p>
+                    <p class="font-bold">● Photos and videos of the scene</p>
+                    <p class="font-bold">● Paycheck stubs to document wage loss</p>
+                    <p class="font-bold">● Medical bills and records</p>
+                    <p class="font-bold">● Any communications you've had with your insurance company</p>
                 </div>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px] mt-4">
                     Organizing these documents beforehand will make the meeting more efficient and productive.
@@ -858,26 +858,26 @@ if (isset($_POST['finish'])) {
                     It is perfectly acceptable—and encouraged—to ask your lawyer about their strategic plan for your case. They should be able to
                 </p>
                 <div class="ml-6 mt-4 space-y-2">
-                    <p class="font-bold">●	Estimate what your case is worth based on your injuries and other damages.</p>
-                    <p class="font-bold">●	Explain their strategy for securing compensation for your commercial vehicle accident.</p>
+                    <p class="font-bold">● Estimate what your case is worth based on your injuries and other damages.</p>
+                    <p class="font-bold">● Explain their strategy for securing compensation for your commercial vehicle accident.</p>
                 </div>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px] mt-4">
-                   Remember, your lawyer is here to serve you. You have the right to ask questions and request that they approach things differently, such as negotiating a settlement rather than going to trial.
+                    Remember, your lawyer is here to serve you. You have the right to ask questions and request that they approach things differently, such as negotiating a settlement rather than going to trial.
                 </p>
             </div>
 
             <div id="q9" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                       <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Should I Get A Lawyer For A Commercial Vehicle Accident?</h2>
-                       <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]" >Yes, it is absolutely critical that you hire a lawyer. Without one, you risk unintentionally damaging your case with a simple statement to an insurance adjuster. An experienced commercial vehicle accident attorney removes the stress of the legal process and will:</p>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Should I Get A Lawyer For A Commercial Vehicle Accident?</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Yes, it is absolutely critical that you hire a lawyer. Without one, you risk unintentionally damaging your case with a simple statement to an insurance adjuster. An experienced commercial vehicle accident attorney removes the stress of the legal process and will:</p>
 
-                       <div  class="ml-6 mt-4 space-y-2">
-                        <p class="font-bold">●	Gather all evidence to support your injury claim</p>
-                        <p class="font-bold">●	Fully investigate your case</p>
-                        <p class="font-bold">●	Advocate on your behalf</p>
-                        <p class="font-bold">●	Negotiate for a fair settlement</p>
-                        <p class="font-bold">●	Take your case to trial if necessary</p>
-                        <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">By hiring a lawyer, you can confidently focus on moving forward with your life while they handle all the legal matters.</p>
-                       </div>
+                <div class="ml-6 mt-4 space-y-2">
+                    <p class="font-bold">● Gather all evidence to support your injury claim</p>
+                    <p class="font-bold">● Fully investigate your case</p>
+                    <p class="font-bold">● Advocate on your behalf</p>
+                    <p class="font-bold">● Negotiate for a fair settlement</p>
+                    <p class="font-bold">● Take your case to trial if necessary</p>
+                    <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">By hiring a lawyer, you can confidently focus on moving forward with your life while they handle all the legal matters.</p>
+                </div>
             </div>
         </div>
         <!-- FAQ's Sidebar - Sticky on large screens -->
