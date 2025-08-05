@@ -27,36 +27,45 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="relative">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG83ZZP2"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- HEADER -->
-    <header class="py-2 md:px-0 px-4 max-w-7xl mx-auto bg-white flex items-center justify-between border-b border-gray-200 relative z-20">
-        <div class="flex items-center gap-3">
-            <a href="https://infinitequotehub.com/">
-                <img src="./images/logo.png" alt="Infinite Quote Hub Logo" class="w-28 ml-3" />
-            </a>
-        </div>
+    <div class="w-screen border-b border-gray-200">
+        <header class="py-2 md:px-0 px-4 max-w-7xl mx-auto bg-white flex items-center justify-between  relative z-20">
+            <div class="flex items-center gap-3">
+                <a href="https://infinitequotehub.com/">
+                    <img src="./images/logo.png" alt="Infinite Quote Hub Logo" class="w-28 ml-3" />
+                </a>
+            </div>
 
-        <!-- Desktop Menu -->
-        <div class="hidden lg:flex justify-center items-center gap-4">
-            <h2 class="text-xl font-semibold">CALL 24/7</h2>
-            <a href="tel:833-615-2933" class="bg-green-700 text-white flex gap-2 items-center font-bold uppercase p-[12px_25px] rounded-md">(833) 615 2933</a>
-            <a href="#form" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-bold text-sm sm:text-base shadow-md">SCHEDULE A FREE CONSULTATION</a>
-        </div>
+            <!-- Desktop Menu -->
+            <div class="hidden lg:flex justify-center items-center gap-4">
+                <h2 class="text-md font-semibold">CALL 24/7</h2>
+                <a href="tel:833-615-2933" class="bg-green-700 text-white flex gap-2 items-center font-bold uppercase p-[12px_25px] rounded-md">(833) 615 2933</a>
+                <a href="#form" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-bold text-sm sm:text-base shadow-md">SCHEDULE A FREE CONSULTATION</a>
+            </div>
 
-        <!-- Hamburger Button -->
-        <div class="lg:hidden">
-            <button id="menu-toggle" class="text-gray-800 focus:outline-none z-50 relative">
-                <!-- Hamburger Icon -->
-                <svg id="hamburger-icon" class="w-8 h-8 block" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
-                </svg>
-                <!-- Cross Icon -->
-                <svg id="close-icon" class="w-8 h-8 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-            </button>
-        </div>
-    </header>
+            <!-- Hamburger Button -->
+            <div class="lg:hidden">
+                <button id="menu-toggle" class="text-gray-800 focus:outline-none z-50 relative">
+                    <!-- Hamburger Icon -->
+                    <svg id="hamburger-icon" class="w-8 h-8 block" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+                    </svg>
+                    <!-- Cross Icon -->
+                    <svg id="close-icon" class="w-8 h-8 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+    </div>
+
 
     <!-- MOBILE OVERLAY BACKGROUND + MENU -->
     <div id="mobile-wrapper" class="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm scale-y-0 origin-top transition-all duration-300 ease-in-out lg:hidden">
@@ -74,6 +83,7 @@
 
             <div class="flex flex-col gap-4 pt-8">
                 <div class="flex flex-col gap-2 mt-3 text-center">
+                    <a href="./car_accident/index.php" class="text-black font-medium text-[17px]">HOME</a>
                     <a href="../practice_area.php" class="text-gray-700 font-medium text-[17px]">PRACTICE AREAS</a>
                     <a href="./location.php" class="text-gray-700 font-medium text-[17px]">LOCATIONS</a>
                     <a href="../about.php" class="text-gray-700 font-medium text-[17px]">ABOUT US</a>
@@ -86,10 +96,22 @@
         </div>
     </div>
 
-    <h2 class="text-[60px] text-center font-bold p-10">LOCATION</h2>
+    <!-- Desktop top navigation inside section -->
+    <div class="hidden lg:flex justify-end gap-6 md:max-w-7xl lg:max-w-7xl mx-auto py-3 ">
+        <a href="./car_accident/index.php" class="text-black font-medium text-[17px]">HOME</a>
+        <a href="./practice_area.php" class="text-black font-medium text-[17px]">PRACTICE AREAS</a>
+        <a href="./location.php" class="text-black font-medium text-[17px]">LOCATIONS</a>
+        <a href="./about.php" class="text-black font-medium text-[17px]">ABOUT US</a>
+        <a href="./contact.php" class="text-black font-medium text-[17px]">CONTACT US</a>
+    </div>
 
-    <div>
-        <img src="./images/location.PNG" alt="" class="mx-auto">
+
+    <h2 class="text-4xl font-bold text-center mb-12 uppercase tracking-wide">LOCATIONS</h2>
+
+
+
+    <div class="max-w-4xl mx-auto">
+        <img src="./images/location.jpeg" alt="" class="mx-auto">
     </div>
 
     <div class="max-w-2xl w-full mx-auto mt-10">
@@ -97,7 +119,7 @@
     </div>
 
 
-    <div class="bg-[#eaeaea]  mt-10">
+    <!-- <div class="bg-[#eaeaea]  mt-10">
 
         <div class="max-w-2xl w-full mx-auto">
 
@@ -111,7 +133,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -143,7 +165,7 @@
 
 
 
-    
+
     <!-- SCRIPT -->
     <script>
         const toggleBtn = document.getElementById('menu-toggle');

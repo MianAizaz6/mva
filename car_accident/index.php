@@ -177,24 +177,6 @@ if (isset($_POST['finish'])) {
         gtag('config', 'G-SQE4G3SQ9X');
     </script>
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-        rel="stylesheet">
-
-    <style>
-        * {
-            font-family: "Inria Sans", sans-serif;
-            font-style: normal;
-        }
-    </style>
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
 
     <!-- Google Tag Manager -->
     <script>
@@ -215,9 +197,23 @@ if (isset($_POST['finish'])) {
     </script>
     <!-- End Google Tag Manager -->
 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 
+    <style>
+        * {
+            font-family: "Inria Sans", sans-serif;
+            font-style: normal;
+        }
+    </style>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
     <!-- faqs -->
@@ -395,34 +391,36 @@ if (isset($_POST['finish'])) {
     <!-- Header -->
 
     <!-- HEADER -->
-    <header class="py-2 md:px-0 px-4 max-w-7xl mx-auto bg-white flex items-center justify-between border-b border-gray-200 relative z-20">
-        <div class="flex items-center gap-3">
-            <a href="https://infinitequotehub.com/">
-                <img src="../images/logo.png" alt="Infinite Quote Hub Logo" class="w-28 ml-3" />
-            </a>
-        </div>
+    <div class="border-b border-gray-200 w-full">
+        <header class="py-2 md:px-0 px-4 max-w-7xl mx-auto bg-white w-full flex items-center justify-between  relative z-20">
+            <div class="flex items-center gap-3">
+                <a href="https://infinitequotehub.com/">
+                    <img src="../images//logo.png" alt="Infinite Quote Hub Logo" class="w-28 ml-3" />
+                </a>
+            </div>
 
-        <!-- Desktop Menu -->
-        <div class="hidden lg:flex justify-center items-center gap-4">
-                <h2 class="text-xl font-semibold">CALL 24/7</h2>
-            <a href="tel:833-615-2933" class="bg-green-700 text-white flex gap-2 items-center font-bold uppercase p-[12px_25px] rounded-md">(833) 615 2933</a>
-            <a href="#form" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-bold text-sm sm:text-base shadow-md">SCHEDULE A FREE CONSULTATION</a>
-        </div>
+            <!-- Desktop Menu -->
+            <div class="hidden lg:flex justify-center items-center gap-4">
+                <h2 class="text-md font-semibold">CALL 24/7</h2>
+                <a href="tel:833-615-2933" class="bg-green-700 text-white flex gap-2 items-center font-bold uppercase p-[12px_25px] rounded-md">(833) 615 2933</a>
+                <a href="#form" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-bold text-sm sm:text-base shadow-md">SCHEDULE A FREE CONSULTATION</a>
+            </div>
 
-        <!-- Hamburger Button -->
-        <div class="lg:hidden">
-            <button id="menu-toggle" class="text-gray-800 focus:outline-none z-50 relative">
-                <!-- Hamburger Icon -->
-                <svg id="hamburger-icon" class="w-8 h-8 block" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
-                </svg>
-                <!-- Cross Icon -->
-                <svg id="close-icon" class="w-8 h-8 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-            </button>
-        </div>
-    </header>
+            <!-- Hamburger Button -->
+            <div class="lg:hidden">
+                <button id="menu-toggle" class="text-gray-800 focus:outline-none z-50 relative">
+                    <!-- Hamburger Icon -->
+                    <svg id="hamburger-icon" class="w-8 h-8 block" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+                    </svg>
+                    <!-- Cross Icon -->
+                    <svg id="close-icon" class="w-8 h-8 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+    </div>
 
     <!-- MOBILE OVERLAY BACKGROUND + MENU -->
     <div id="mobile-wrapper" class="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm scale-y-0 origin-top transition-all duration-300 ease-in-out lg:hidden">
@@ -451,7 +449,6 @@ if (isset($_POST['finish'])) {
             </div>
         </div>
     </div>
-
 
 
 
@@ -509,8 +506,8 @@ if (isset($_POST['finish'])) {
 
 
 
-    <div class=" relative  w-full max-w-10xl  py-16 z-20">
-        <div class="bg-gray-800 px-10 py-4">
+    <div class=" relative  w-full max-w-10xl z-20" id="form">
+        <div class="bg-gray-800 px-10 py-16">
             <div class=" flex flex-col justify-center items-center lg:flex-row gap-6 lg:gap-10">
                 <!-- Cards Container -->
                 <div class="bg-gray-800 grid grid-cols-1 bg-[#f9f9f9] gap-14 justify-center h-fit w-full lg:w-3/5">
@@ -808,7 +805,7 @@ if (isset($_POST['finish'])) {
 
             <!-- Q/7 -->
             <div id="q7" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold text-[#00446A] mb-4">How Do I Know My Car Accident Lawyer Will Approach My Case In The Right Way?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold mb-4">How Do I Know My Car Accident Lawyer Will Approach My Case In The Right Way?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
                     It is perfectly acceptable—and encouraged—to ask your lawyer about their strategic plan for your case. They should be able to:
                 </p>
@@ -1003,7 +1000,7 @@ if (isset($_POST['finish'])) {
 
 
 
-     <!-- SCRIPT -->
+    <!-- SCRIPT -->
     <script>
         const toggleBtn = document.getElementById('menu-toggle');
         const wrapper = document.getElementById('mobile-wrapper');

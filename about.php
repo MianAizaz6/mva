@@ -32,42 +32,31 @@
 
 <body class="font-sans text-[#000000] bg-white">
 
-    <!-- HEADER -->
-    <header class="py-2 md:px-0 px-4 max-w-7xl mx-auto bg-white flex items-center justify-between border-b border-gray-200 relative z-20">
-        <div class="flex items-center gap-3">
-         <a href="https://infinitequotehub.com/">
-                <img src="./images/logo.png" alt="Infinite Quote Hub Logo" class="w-28 ml-3" />
-            </a>
+    <?php include('./includes/car_header.php') ?>
+
+
+    <div class="relative bg-center bg-cover bg-no-repeat lg:h-[95vh] h-[50vh]" style="background-image: url('./images/aboout.avif');">
+        <div class="hidden lg:flex justify-end gap-6 md:max-w-7xl lg:max-w-7xl mx-auto py-3 relative z-10">
+            <a href="./car_accident/index.php" class="text-black font-medium text-[17px]">HOME</a>
+            <a href="./practice_area.php" class="text-black font-medium text-[17px]">PRACTICE AREAS</a>
+            <a href="./location.php" class="text-black font-medium text-[17px]">LOCATIONS</a>
+            <a href="./about.php" class="text-black font-medium text-[17px]">ABOUT US</a>
+            <a href="./contact.php" class="text-black font-medium text-[17px]">CONTACT US</a>
         </div>
 
-        <!-- Desktop Menu -->
-        <div class="hidden lg:flex gap-4">
-            <a href="tel:8336152933" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-semibold text-sm sm:text-base shadow-md">CALL 24/7</a>
-            <a href="tel:833-615-2933" class="bg-green-700 text-white flex gap-2 items-center font-semibold uppercase p-[12px_25px] rounded-md">(833) 615 2933</a>
-            <a href="#form" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-semibold text-sm sm:text-base shadow-md">SCHEDULE A FREE CONSULTATION</a>
+        <div class="max-w-[700px] w-full absolute top-60 left-1/2 -translate-x-1/2">
+            <h2 class="text-white text-center relative z-10 font-semibold lg:text-[26px] sm:text-xl">Partnered with over 350 law firms</h2>
+            <h2 class="text-white text-center relative z-10 font-semibold lg:text-[26px] sm:text-xl py-10">Reaching millions of consumers seeking legal assistance</h2>
+            <h2 class="text-white text-center relative z-10 font-semibold lg:text-[26px] sm:text-xl">Available 24/7</h2>
         </div>
-
-        <!-- Hamburger Button -->
-        <div class="lg:hidden">
-            <button id="menu-toggle" class="text-gray-800 focus:outline-none z-50 relative">
-                <!-- Hamburger Icon -->
-                <svg id="hamburger-icon" class="w-8 h-8 block" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
-                </svg>
-                <!-- Cross Icon -->
-                <svg id="close-icon" class="w-8 h-8 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-            </button>
-        </div>
-    </header>
+    </div>
 
     <!-- MOBILE OVERLAY BACKGROUND + MENU -->
-    <div id="mobile-wrapper" class="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm scale-y-0       origin-top transition-all duration-300 ease-in-out lg:hidden">
+    <div id="mobile-wrapper" class="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm scale-y-0 origin-top transition-all duration-300 ease-in-out lg:hidden">
         <div id="mobile-menu" class="max-w-7xl mx-auto px-4 py-4 bg-white relative">
             <!-- Optional Close Button Inside Menu -->
 
-             <a href="https://infinitequotehub.com/">
+            <a href="https://infinitequotehub.com/">
                 <img src="./images/logo.png" alt="Infinite Quote Hub Logo" class="w-28 ml-3" />
             </a>
             <button id="menu-close" class="absolute top-4 right-4 text-gray-700 focus:outline-none lg:hidden">
@@ -78,34 +67,16 @@
 
             <div class="flex flex-col gap-4 pt-8">
                 <div class="flex flex-col gap-2 mt-3 text-center">
-                    <a href="./practice_area.php" class="text-gray-700 font-medium text-[17px]">PRACTICE AREAS</a>
-                    <a href="./location.php" class="text-gray-700 font-medium text-[17px]">LOCATIONS</a>
-                    <a href="./about.php" class="text-gray-700 font-medium text-[17px]">ABOUT US</a>
-                    <a href="./contact.php" class="text-gray-700 font-medium text-[17px]">CONTACT US</a>
+                    <a href="./car_accident/index.php" class="text-black font-medium text-[17px]">Home</a>
+                    <a href="../practice_area.php" class="text-gray-700 font-medium text-[17px]">PRACTICE AREAS</a>
+                    <a href="../location.php" class="text-gray-700 font-medium text-[17px]">LOCATIONS</a>
+                    <a href="../about.php" class="text-gray-700 font-medium text-[17px]">ABOUT US</a>
+                    <a href="../contact.php" class="text-gray-700 font-medium text-[17px]">CONTACT US</a>
                 </div>
                 <a href="tel:8336152933" class="bg-gray-800 text-white px-6 py-3 rounded-md font-semibold text-sm shadow-md text-center">CALL 24/7</a>
                 <a href="tel:833-615-2933" class="bg-green-700 text-white font-semibold uppercase px-6 py-3 rounded-md text-center">(833) 615 2933</a>
                 <a href="#form" class="bg-gray-800 text-white px-6 py-3 rounded-md font-semibold text-sm shadow-md text-center">SCHEDULE A FREE CONSULTATION</a>
             </div>
-        </div>
-    </div>
-
-    <!-- HERO SECTION -->
-    <div>
-        <h2 class="text-center lg:text-[70px] text-[40px] font-bold mt-5 lg:mt-0">ABOUT US</h2>
-    </div>
-    <div class="relative bg-center bg-cover bg-no-repeat lg:h-[95vh] h-[50vh]" style="background-image: url('./images/aboout.avif');">
-        <div class="hidden lg:flex justify-end gap-6 md:max-w-7xl lg:max-w-7xl mx-auto py-3 relative z-10">
-            <a href="./practice_area.php" class="text-white font-medium text-[17px]">PRACTICE AREAS</a>
-            <a href="./location.php" class="text-white font-medium text-[17px]">LOCATIONS</a>
-            <a href="./about.php" class="text-white font-medium text-[17px]">ABOUT US</a>
-            <a href="./contact.php" class="text-white font-medium text-[17px]">CONTACT US</a>
-        </div>
-
-        <div class="max-w-[700px] w-full absolute top-60 left-1/2 -translate-x-1/2">
-            <h2 class="text-white text-center relative z-10 font-semibold lg:text-[26px] sm:text-xl">Partnered with over 350 law firms</h2>
-            <h2 class="text-white text-center relative z-10 font-semibold lg:text-[26px] sm:text-xl py-10">Reaching millions of consumers seeking legal assistance</h2>
-            <h2 class="text-white text-center relative z-10 font-semibold lg:text-[26px] sm:text-xl">Available 24/7</h2>
         </div>
     </div>
 
@@ -143,7 +114,7 @@
     </script>
 
 
-    <div class="bg-black px-10 ">
+    <div class="bg-gray-800 px-10 ">
 
         <div class="pt-5">
             <h2 class="text-white text-[26px] font-semibold">

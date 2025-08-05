@@ -53,7 +53,7 @@ if (isset($_POST['finish'])) {
   // $run2 = mysqli_query($connection, $sql);
 
   if ($run) {
-    header("Location: index.php?success=true");
+    header("Location: message.html");
     exit;
   } else {
     header("Location: index.php?error=true");

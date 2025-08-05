@@ -63,8 +63,6 @@ if (isset($_POST['finish'])) {
 
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -216,14 +214,58 @@ if (isset($_POST['finish'])) {
   <!-- End Google Tag Manager -->
 </head>
 
-<body class="font-sans text-[#000000] bg-white flex flex-col gap-10">
+<body class="font-sans text-[#000000] bg-white flex flex-col">
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG83ZZP2"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
 
-  <?php include('./includes/header.php') ?>
+  <?php include('./includes/car_header.php') ?>
 
 
   <section class="px-4 pb-8 bg-white">
+    <div class="hidden lg:flex justify-end gap-6 md:max-w-7xl lg:max-w-7xl mx-auto py-3 relative z-10">
+      <a href="./car_accident/index.php" class="text-black font-medium text-[17px]">HOME</a>
+      <a href="./practice_area.php" class="text-black font-medium text-[17px]">PRACTICE AREAS</a>
+      <a href="./location.php" class="text-black font-medium text-[17px]">LOCATIONS</a>
+      <a href="./about.php" class="text-black font-medium text-[17px]">ABOUT US</a>
+      <a href="./contact.php" class="text-black font-medium text-[17px]">CONTACT US</a>
+    </div>
+
+    <!-- MOBILE OVERLAY BACKGROUND + MENU -->
+    <div id="mobile-wrapper" class="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm scale-y-0 origin-top transition-all duration-300 ease-in-out lg:hidden">
+      <div id="mobile-menu" class="max-w-7xl mx-auto px-4 py-4 bg-white relative">
+        <!-- Optional Close Button Inside Menu -->
+
+        <a href="https://infinitequotehub.com/">
+          <img src="./images/logo.png" alt="Infinite Quote Hub Logo" class="w-28 ml-3" />
+        </a>
+        <button id="menu-close" class="absolute top-4 right-4 text-gray-700 focus:outline-none lg:hidden">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        <div class="flex flex-col gap-4 pt-8">
+          <div class="flex flex-col gap-2 mt-3 text-center">
+            <a href="./index.php" class="text-black font-medium text-[17px]">HOME</a>
+            <a href="../practice_area.php" class="text-gray-700 font-medium text-[17px]">PRACTICE AREAS</a>
+            <a href="../location.php" class="text-gray-700 font-medium text-[17px]">LOCATIONS</a>
+            <a href="../about.php" class="text-gray-700 font-medium text-[17px]">ABOUT US</a>
+            <a href="../contact.php" class="text-gray-700 font-medium text-[17px]">CONTACT US</a>
+          </div>
+          <a href="tel:8336152933" class="bg-gray-800 text-white px-6 py-3 rounded-md font-semibold text-sm shadow-md text-center">CALL 24/7</a>
+          <a href="tel:833-615-2933" class="bg-green-700 text-white font-semibold uppercase px-6 py-3 rounded-md text-center">(833) 615 2933</a>
+          <a href="#form" class="bg-gray-800 text-white px-6 py-3 rounded-md font-semibold text-sm shadow-md text-center">SCHEDULE A FREE CONSULTATION</a>
+        </div>
+      </div>
+    </div>
+
+
     <div class="max-w-7xl mx-auto">
+
       <h2 class="text-4xl font-bold text-center mb-12 uppercase tracking-wide">Practice Areas</h2>
 
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -303,7 +345,31 @@ if (isset($_POST['finish'])) {
 
   <?php include('./includes/footer.php') ?>
 
+  <!-- SCRIPT -->
+  <script>
+    const toggleBtn = document.getElementById('menu-toggle');
+    const wrapper = document.getElementById('mobile-wrapper');
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+    const closeIcon = document.getElementById('close-icon');
+    const menuClose = document.getElementById('menu-close');
 
+    // Toggle open/close
+    toggleBtn.addEventListener('click', () => {
+      const isOpen = wrapper.classList.contains('scale-y-100');
+      wrapper.classList.toggle('scale-y-0');
+      wrapper.classList.toggle('scale-y-100');
+      hamburgerIcon.classList.toggle('hidden');
+      closeIcon.classList.toggle('hidden');
+    });
+
+    // Close with inside cross
+    menuClose.addEventListener('click', () => {
+      wrapper.classList.add('scale-y-0');
+      wrapper.classList.remove('scale-y-100');
+      hamburgerIcon.classList.remove('hidden');
+      closeIcon.classList.add('hidden');
+    });
+  </script>
 </body>
 
 </html>
