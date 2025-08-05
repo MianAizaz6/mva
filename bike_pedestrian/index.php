@@ -905,7 +905,7 @@ if (isset($_POST['finish'])) {
                 <!-- Q/1 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q1">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
-                    <a href="#q1" class=" text-base lg:text-lg hover:font-bold  transition-colors">class="text-base lg:text-md leading-relaxed lg:leading-[30px]"</a>
+                    <a href="#q1" class=" text-base lg:text-lg hover:font-bold  transition-colors">Is It Worth Hiring A Bicycle, Pedestrian, and Motorcycle Accident Lawyer?</a>
                 </div>
 
                 <!-- Q/2 -->
