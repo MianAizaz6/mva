@@ -58,12 +58,14 @@
 
 
     <div class="relative bg-center bg-cover bg-no-repeat lg:h-[95vh] h-[50vh]" style="background-image: url('./images/aboout.avif');">
+        <div class="absolute inset-0 bg-black/60 z-0"></div>
+
         <div class="hidden lg:flex justify-end gap-6 md:max-w-7xl lg:max-w-7xl mx-auto py-3 relative z-10">
-            <a href="./car_accident/index.php" class="text-black font-medium text-[17px]">HOME</a>
-            <a href="./practice_area.php" class="text-black font-medium text-[17px]">PRACTICE AREAS</a>
-            <a href="./location.php" class="text-black font-medium text-[17px]">LOCATIONS</a>
-            <a href="./about.php" class="text-black font-medium text-[17px]">ABOUT US</a>
-            <a href="./contact.php" class="text-black font-medium text-[17px]">CONTACT US</a>
+            <a href="./car_accident/index.php" class="text-white font-medium text-[17px]">HOME</a>
+            <a href="./practice_area.php" class="text-white font-medium text-[17px]">PRACTICE AREAS</a>
+            <a href="./location.php" class="text-white font-medium text-[17px]">LOCATIONS</a>
+            <a href="./about.php" class="text-white font-medium text-[17px]">ABOUT US</a>
+            <a href="./contact.php" class="text-white font-medium text-[17px]">CONTACT US</a>
         </div>
 
         <div class="max-w-[700px] w-full absolute top-60 left-1/2 -translate-x-1/2">

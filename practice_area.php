@@ -270,7 +270,8 @@ if (isset($_POST['finish'])) {
 
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <!-- Card 1 -->
-        <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
+        <a href="./car_accident/index.php">
+          <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
           <img src="./images/practice_areas/accidented_car.jpg" alt="Car Accident" class="w-full h-48 object-cover">
           <div class="p-4">
             <h3 class="font-semibold text-xl mb-2">Car Accidents:</h3>
@@ -279,6 +280,7 @@ if (isset($_POST['finish'])) {
             </p>
           </div>
         </div>
+        </a>
 
         <!-- Card 2 -->
         <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
@@ -292,7 +294,8 @@ if (isset($_POST['finish'])) {
         </div>
 
         <!-- Card 3 -->
-        <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
+        <a href="./commercial_accident/index.php">
+          <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
           <img src="./images/practice_areas/truck.jpeg" alt="Truck Accident" class="w-full h-48 object-cover">
           <div class="p-4">
             <h3 class="font-semibold text-xl mb-2">Truck Accidents:</h3>
@@ -301,9 +304,11 @@ if (isset($_POST['finish'])) {
             </p>
           </div>
         </div>
+        </a>
 
         <!-- Card 4 -->
-        <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
+       <a href="./commercial_accident/index.php">
+         <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
           <img src="./images/practice_areas/bus.jpeg" alt="Bus Accident" class="w-full h-48 object-cover">
           <div class="p-4">
             <h3 class="font-semibold text-xl mb-2">Bus Accidents:</h3>
@@ -312,9 +317,11 @@ if (isset($_POST['finish'])) {
             </p>
           </div>
         </div>
+       </a>
 
         <!-- Card 5 -->
-        <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
+        <a href="./bike_pedestrian/index.php">
+          <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
           <img src="./images/practice_areas/cycle.jpeg" alt="Bicycle Accident" class="w-full h-48 object-cover">
           <div class="p-4">
             <h3 class="font-semibold text-xl mb-2">Bicycle Accidents:</h3>
@@ -323,9 +330,11 @@ if (isset($_POST['finish'])) {
             </p>
           </div>
         </div>
+        </a>
 
         <!-- Card 6 -->
-        <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
+        <a href="./bike_pedestrian/index.php">
+          <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
           <img src="./images/practice_areas/pedist.jpeg" alt="Pedestrian Accident" class="w-full h-48 object-cover">
           <div class="p-4">
             <h3 class="font-semibold text-xl mb-2">Pedestrian Accidents:</h3>
@@ -334,6 +343,7 @@ if (isset($_POST['finish'])) {
             </p>
           </div>
         </div>
+        </a>
       </div>
     </div>
   </section>
