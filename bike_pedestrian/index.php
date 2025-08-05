@@ -464,7 +464,7 @@ if (isset($_POST['finish'])) {
 
         <!-- Title -->
         <div class="pt-16 lg:pt-20 max-w-7xl mx-auto">
-           <h2 class="text-white text-center relative z-10 font-bold text-[28px] sm:text-[36px] lg:text-[58px] leading-[60px]  px-4">
+            <h2 class="text-white text-center relative z-10 font-bold text-[28px] sm:text-[36px] lg:text-[58px] leading-[60px]  px-4">
 
                 BICYCLE AND PEDESTRIAN ACCIDENT <br> ATTORNEYS
             </h2>
@@ -724,16 +724,16 @@ if (isset($_POST['finish'])) {
         <div class="w-full md:w-[52%] py-8 md:ml-40 space-y-8" id="faq-content">
             <!-- Q/1 -->
             <div id="q1" class="section-item bg-white p-2 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Is It Worth Hiring A Bicycle, Pedestrian, and Motorcycle Accident Lawyer?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px]">Is It Worth Hiring A Bicycle, Pedestrian, and Motorcycle Accident Lawyer?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    Yes, hiring a lawyer for a bicycle, pedestrian, or motorcycle accident is a crucial step after a crash. While many cases settle before trial, an experienced attorney plays a pivotal role in negotiating with insurance companies to secure the maximum possible compensation. They also have the expertise to take your case to trial if that becomes the best path to justice. Most importantly, a lawyer understands the complexities of personal injury law and can leverage all available evidence to build the strongest possible case on your behalf, often fighting against unfair biases and assumptions about these types of accidents.
+                    Yes, hiring a bicycle accident attorney, a pedestrian accident lawyer, or a motorcycle accident lawyer is a crucial step after a crash. While many personal injury cases settle before trial, an experienced attorney plays a pivotal role in negotiating with insurance companies to secure the maximum possible compensation. They also have the expertise to take your case to trial if that becomes the best path to justice. Most importantly, a lawyer understands the complexities of personal injury law and can leverage all available evidence to build the strongest possible case on your behalf, often fighting against unfair biases and assumptions about these types of accidents.
                 </p>
             </div>
 
             <!-- Q/2 -->
             <div id="q2" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">How Does A Bicycle, Pedestrian, and Motorcycle Accident Lawyer Help?</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">A lawyer handles all the legal complexities, allowing you to focus on your recovery. Their key responsibilities include</p>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px]">How Does A Bicycle, Pedestrian, and Motorcycle Accident Lawyer Help?</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">A lawyer handles all the legal complexities, allowing you to focus on your recovery. Their key responsibilities include:</p>
                 <div class="ml-6 mt-4 space-y-2">
                     <p class="font-bold">● Investigating the facts of the case</p>
                     <p class="font-bold">● Gathering and preserving evidence for trial</p>
@@ -759,14 +759,14 @@ if (isset($_POST['finish'])) {
 
             <!-- Q/3 -->
             <div id="q3" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">How Much Does A Bicycle, Pedestrian, and Motorcycle Accident Lawyer Cost?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px]">How Much Does A Bicycle, Pedestrian, and Motorcycle Accident Lawyer Cost?</h2>
                 <h3 class="text-xl lg:text-[25px] font-semibold  mb-3">Contingency Fee Arrangements And Free Consultations</h3>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    You may be concerned about the cost of hiring a lawyer, but it's important to know that most attorneys for bicycle, pedestrian, and motorcycle accidents work on a contingency basis. This means you pay nothing unless and until they successfully win your case and you obtain compensation. There are no upfront fees. Your attorney will cover all out-of-pocket expenses, such as the costs of litigation and working with expert witnesses and investigators.
+                    You may be concerned about the cost of hiring a bicycle accident attorney, pedestrian injury attorney, or motorcycle crash lawyer? Not a problem. Most accident lawyers for bicycle, pedestrian, and motorcycle accidents work on a contingency basis. This means you pay nothing unless and until they successfully win your case and you obtain compensation. There are no upfront fees. Put simply, the attorney will represent you for free
                     <br><br>
-                    This fee structure is highly advantageous to you. It eliminates financial risk and incentivizes your attorney to work efficiently to maximize your recovery. The more they secure for you, the more they get paid, creating a win-win situation.
+                    They will cover out-of-pocket expenses, such as the costs of litigation and working with expert witnesses and investigators. This fee structure is highly advantageous to you. It eliminates financial risk and incentivizes your attorney to work efficiently to maximize your recovery. The more they secure for you, the more they get paid, creating a win-win situation.
                     <br><br>
-                    Additionally, most lawyers for bicycle, pedestrian, and motorcycle accidents provide free consultations. This allows you to discuss your case and understand your legal options without any obligation. It’s a vital first step with no barrier to entry.
+                    Additionally, most lawyers for bicycle, pedestrian, and motorcycle accidents provide free consultations. This allows you to discuss your case and understand your legal options without any obligation. It’s a vital first step with no barrier to entry. If you need pedestrian accident lawyer now, or an emergency bicycle accident attorney, don't hesitate to call. For a motorcycle lawyer consultation or immediate pedestrian lawyer consultation, we're here to help.
                 </p>
             </div>
 
@@ -774,7 +774,7 @@ if (isset($_POST['finish'])) {
             <div id="q4" class="section-item bg-white p-6 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">How Much Is Your Case Worth?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    This is one of the most common questions we receive, and it’s a difficult one to answer without knowing the specific details of your case. The value of your claim is determined by a comprehensive review of the evidence, including who was at fault, the severity of your injuries, property damage, time off work, and long-term care needs. <br>
+                    This is one of our most frequently asked questions! However, it’s a hard question to answer without knowing the specific details of your case. The value of your injury claim is determined by a comprehensive review of the evidence, including who was at fault, the severity of your injuries, property damage, time off work, and long-term care needs.<br> <br>
                     Generally, there are three types of damages in personal injury claims:
                 </p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Noneconomic Damages</h2>
@@ -786,7 +786,7 @@ if (isset($_POST['finish'])) {
                     <h2 class="font-bold">● And more</h2>
                 </div>
 
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Monetary, Or Economic Damagess</h2>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Monetary, Or Economic Damages</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Economic damages are for quantifiable financial losses. These include:</p>
                 <div class="ml-6 mt-4 space-y-2">
                     <h2 class="font-bold">● Lost wages</h2>
@@ -795,50 +795,58 @@ if (isset($_POST['finish'])) {
                     <h2 class="font-bold">● Past and future medical expenses</h2>
                 </div>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3"> Punitive Damages</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Punitive damages are distinct. They are awarded in limited cases to punish defendants for particularly malicious or reckless behavior (such as drunk driving) and to deter others from similar actions. These damages can significantly increase the total value of a claim, potentially into millions of dollars. An experienced lawyer can determine if you are entitled to punitive damages.</p>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Working With An Accident Lawyer As Soon As Possible</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">If you've been in a bicycle, pedestrian, or motorcycle accident, it's crucial to hire a lawyer as quickly as possible. This is not just about moving on with your life; there are practical, legal reasons for acting fast</p>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Punitive damages are distinct. They are awarded in limited cases to punish defendants for particularly malicious or reckless behavior (such as drunk driving or road rage accidents) — and are only available in limited cases.
+                    <br> <br>
+                    Punitive damages are worth claiming where possible, however, as they multiply the baseline damages, leading to damage totals that can tally up into millions. An experienced bicycle accident attorney, pedestrian injury attorney, or motorcycle accident lawyer can explain if you’re entitled to punitive damages, especially in cases like pedestrian wrongful death lawyer or motorcycle wrongful death attorney claims.
+                </p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3 leading-[38px]">Working With An Accident Lawyer As Soon As Possible</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">If you've been in a bicycle accident, pedestrian accident, or motorcycle accident, it's crucial to hire a lawyer as quickly as possible. This is not just about moving on with your life; there are practical, legal reasons for acting fast</p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Accident Case Investigation</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Attorneys have the resources to immediately launch a thorough investigation. They will identify witnesses, gather photographic and video evidence, and collect all relevant records (medical, police, employment, etc.). A skilled lawyer ensures all necessary procedures are followed, from preserving evidence like the bicycle, motorcycle, helmet, or the clothing a pedestrian was wearing, to helping you craft a victim impact statement.</p>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Attorneys have the resources to immediately launch a thorough investigation. They will identify witnesses, gather photographic and video evidence, and collect all relevant records (medical, police, employment, etc.). A skilled cyclist injury lawyer or pedestrian accident attorney ensures all necessary procedures are followed, from preserving evidence like the bicycle, motorcycle, helmet, or the clothing a pedestrian was wearing, to helping you craft a victim impact statement. We handle cases like pedestrian hit by car lawyer or doored cyclist lawyer.</p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Preventing Problematic Disclosures</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">The success of your case can be undermined if you are found to be partially at fault for the accident. Your lawyer serves as a crucial communication middleman, speaking with opposing counsel and insurance companies on your behalf. This protects you from inadvertently making a statement that could jeopardize your claim and reduce your compensation.</p>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">The success of your case can be undermined if you are found to be partially at fault for the accident. Your injury attorney will serve as your communication middleman, speaking with opposing counsel and insurance companies on your behalf. This protects you from inadvertently making a statement that could jeopardize your accident claim and reduce your compensation.</p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Statute of Limitation Issues</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">All personal injury claims are subject to a statute of limitations, which is a strict legal deadline. If you fail to file your claim within this timeframe, you lose your right to pursue a lawsuit. An attorney will be aware of all procedural deadlines and ensure your case is filed correctly and on time.</p>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">All personal injury claims, including pedestrian accident lawyer cases, bicycle accident attorney cases, and motorcycle accident lawyer cases, are governed by applicable statutes of limitations. The statute of limitations is essentially a deadline. If you do not file your claim by the deadline, then you will no longer have a right to bring a lawsuit against the defendant. Simply put, a failure to act within a reasonable time period can prevent you from securing compensation.
+                    <br><br>
+                    Given this deadline issue, it’s critical that you consult with an attorney as soon as possible after an accident. Your attorney will be aware of all procedural matters, such as case deadlines, and will file within the applicable timeframe. For immediate pedestrian lawyer consultation or motorcycle accident lawyer today, contact us.
+                </p>
             </div>
 
             <!-- Q/5 -->
             <div id="q5" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Do I Need A Lawyer For Bicycle, Pedestrian, and Motorcycle Accidents?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px]">Do I Need A Lawyer For Bicycle, Pedestrian, and Motorcycle Accidents?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    While you can try to handle a bicycle, pedestrian, or motorcycle accident dispute on your own, it is strongly discouraged. As a victim, you are up against a system that is not on your side. Defendants can be hostile, and insurance companies will often outright reject your claim or offer a minimal settlement. An attorney is your advocate, handling your case from start to finish and fighting relentlessly to secure the maximum compensation you deserve.
+                    While you can try to handle a bicycle accident, pedestrian accident, or motorcycle accident dispute on your own, it is strongly discouraged. As a victim, you are up against a system that is not on your side. Defendants can be hostile, and insurance companies will often outright reject your claim for damages or offer a minimal settlement. An attorney is your advocate, handling your case from start to finish and fighting relentlessly to secure the maximum compensation you deserve.
                 </p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Finding The Right Attorney</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Knowing you need a lawyer is one thing; finding the right one is another. Here are some key tips for making the best decision:</p>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Ask for an attorney</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">It can be challenging to assess an attorney's quality from a simple online search. Look for an experienced attorney with a strong reputation, especially one who understands the unique challenges of these types of accidents.</p>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Understand the fee structure</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Always confirm the attorney's fee structure. As mentioned, most work on a contingency basis, so you should have a clear understanding of the percentage they will take from your final recovery before moving forward.</p>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Experience is a meaningful predictor of quality representation. An attorney who has handled many cases has a unique insight into common patterns in litigation, which can help them navigate your case to a successful outcome and avoid pitfalls</p>
-                    <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Go through a free consultation</h2>
-                    <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Take advantage of free consultations to get a feel for the attorney. This is your chance to gather information about your case and determine if their personality and approach are a good fit for you.</p>
-                    <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Choosing between a large firm or small firm of bicycle, pedestrian, and motorcycle accident lawyers</h2>
-                    <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">The assumption that larger firms are always better is not necessarily true. At a large firm, your case can sometimes get lost in the shuffle, while many smaller firms excel at providing personalized, focused attention to each client. The best choice depends on your specific needs, and we can connect you with an experienced lawyer who is capable of handling claims like yours.</p>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Knowing you need a pedestrian accident lawyer, bicycle accident attorney, or motorcycle crash lawyer is one thing; finding the right one is another. Here are some key tips for making the best decision:</p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Ask For An Attorney</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">It can be challenging to assess the quality of an attorney from a cursory search online. Look for an experienced attorney with a strong reputation, especially one who understands the unique challenges of these types of accidents. If you're looking for the best pedestrian accident lawyer or top bicycle accident attorney, we can help.</p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Understand The Fee Structure</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Always confirm the attorney's fee structure. As mentioned, most work on a contingency basis, so you should have a clear understanding of the percentage they will take from your final recovery before moving forward. If you're concerned about pedestrian accident lawyer cost or bicycle accident attorney fees, know that a no fee bicycle accident lawyer is an option</p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Experience Matters
+                </h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Experience is a meaningful predictor of quality representation. An attorney who has handled many cases has a unique insight into common patterns in litigation, which can help them navigate your case to a successful outcome and avoid pitfalls. We encourage you to work with lawyers who have helped clients navigate a variety of accident scenarios, including motorcycle lane splitting accident or crosswalk accident lawyer cases</p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Go through a free consultation<</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Most personal injury and accident lawyers offer free advice or consultation through a hotline. At this time, they gather more information through a phone call or online about your case and help identify strategic options. If a lawyer wants money up front for a legal consultation, they are probably not the best candidate. It is important to evaluate whether you feel comfortable with an attorney. Consider: are your personalities compatible in the working context? If they are, you will enjoy a smoother process for your accident claim or case, which can help to deal with an otherwise stressful experience.</p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3 leading-[38px] leading-[28px]">Choosing between a large firm or small firm of bicycle, pedestrian, and motorcycle accident lawyers</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">The assumption that larger firms are always better is not necessarily true. At a large firm, your case can sometimes get lost in the shuffle, while many smaller firms excel at providing personalized, focused attention to each client. The best choice depends on your specific needs, and we can connect you with an experienced lawyer who is capable of handling claims like yours.</p>
 
             </div>
 
             <!-- Q/6 -->
             <div id="q6" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">What If My Case Seems Too Small For An Attorney To Take?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px]">What If My Case Seems Too Small For An Attorney To Take</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    Even if you believe your case is minor, you should still contact a lawyer for bicycle, pedestrian, and motorcycle accidents. They can assess the evidence and determine if there’s a viable path to compensation. While some attorneys may decline cases with small settlement potential due to overhead costs, many will still work to “build up” the value of the case to a reasonable level. If an attorney is unwilling to do that, you may want to explore hiring a different one.
+                    Even if you believe your case is minor, you should still contact a lawyer for bicycle, pedestrian, and motorcycle accidents. They can assess the evidence and determine if there’s a viable path to compensation. While some attorneys may decline cases with small settlement potential due to overhead costs, many will still work to “build up” the value of the case to a reasonable level. If an attorney is unwilling to do that, you may want to explore hiring a different one
                 </p>
             </div>
 
             <!-- Q/7 -->
             <div id="q7" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold mb-4">What Should I Bring To My First Meeting With A Bicycle, Pedestrian, and Motorcycle Accident Lawyer?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold mb-4 leading-[38px]">What Should I Bring To My First Meeting With A Bicycle, Pedestrian, and Motorcycle Accident Lawyer?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    A well-prepared first meeting is a great way to start your case. You should create a folder with copies of all documents related to your case, including:
+                   A well-prepared first meeting is a great way to start your case. You should create a folder with copies of all documents related to your case, including:
                 </p>
                 <div class="ml-6 mt-4 space-y-2">
                     <p class="font-bold">● Police reports</p>
@@ -855,23 +863,23 @@ if (isset($_POST['finish'])) {
 
             <!-- Q/8 -->
             <div id="q8" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">How Do I Know My Bicycle, Pedestrian, and Motorcycle Accident Lawyer Will Approach My Case In The Right Way?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px]">How Do I Know My Bicycle, Pedestrian, and Motorcycle Accident Lawyer Will Approach My Case In The Right Way?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    It is perfectly acceptable—and encouraged—to ask your lawyer about their strategic plan for your case. They should be able to
+                   It is perfectly acceptable—and encouraged—to ask your lawyer about their strategic plan for your case. They should be able to:
                 </p>
                 <div class="ml-6 mt-4 space-y-2">
-                    <p class="font-bold">● Estimate what your case is worth based on your injuries and other damages.</p>
-                    <p class="font-bold">● Explain their strategy for securing compensation for your bicycle, pedestrian, or motorcycle accident.</p>
+                    <p class="font-bold">●	Estimate what your case is worth based on your injuries and other damages.</p>
+                    <p class="font-bold">●	Explain their strategy for securing compensation for your bicycle, pedestrian, or motorcycle accident.</p>
                 </div>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px] mt-4">
-                    Remember, your lawyer is here to serve you. You have the right to ask questions and request that they approach things differently, such as negotiating a settlement rather than going to trial.
+                   Remember, your lawyer is here to serve you. You have the right to ask questions or request that they approach things differently, such as negotiating a settlement rather than going to trial.
                 </p>
             </div>
 
             <!-- question 9 -->
 
             <div id="q9" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Should I Get A Lawyer For A Bicycle, Pedestrian, and Motorcycle Accident?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px] ">Should I Get A Lawyer For A Bicycle, Pedestrian, and Motorcycle Accident?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Yes, it is absolutely critical that you hire a lawyer. Without one, you risk unintentionally damaging your case with a simple statement to an insurance adjuster. An experienced attorney for these types of accidents removes the stress of the legal process and will:</p>
 
                 <div class="ml-6 mt-4 space-y-2">
@@ -895,46 +903,55 @@ if (isset($_POST['finish'])) {
 
             <!-- FAQ QUESTION links -->
             <div class="flex flex-col gap-1">
+                <!-- Q/1 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q1">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
-                    <a href="#q1" class=" text-base lg:text-lg hover:font-bold  transition-colors">Is It Worth Hiring A Bicycle, Pedestrian, and Motorcycle Accident Lawyer?</a>
+                    <a href="#q1" class=" text-base lg:text-lg hover:font-bold  transition-colors">class="text-base lg:text-md leading-relaxed lg:leading-[30px]"</a>
                 </div>
 
+                <!-- Q/2 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q2">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q2" class=" text-base lg:text-lg hover:font-bold  transition-colors">How Does A Bicycle, Pedestrian, and Motorcycle Accident Lawyer Help?</a>
                 </div>
 
+                <!-- Q/3 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q3">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q3" class=" text-base lg:text-lg hover:font-bold  transition-colors">How Much Does A Bicycle, Pedestrian, and Motorcycle Accident Lawyer Cost?</a>
                 </div>
 
+                <!-- Q/4 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q4">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q4" class=" text-base lg:text-lg hover:font-bold  transition-colors">How Much Is Your Case Worth?</a>
                 </div>
 
+                <!-- Q/5 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q5">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q5" class=" text-base lg:text-lg hover:font-bold  transition-colors">Do I Need A Lawyer For Bicycle, Pedestrian, and Motorcycle Accidents?</a>
                 </div>
 
+                <!-- Q/6 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q6">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q6" class=" text-base lg:text-lg hover:font-bold  transition-colors">What If My Case Seems Too Small For An Attorney To Take?</a>
                 </div>
 
+                <!-- Q/7 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q7">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
-                    <a href="#q7" class=" text-base lg:text-lg hover:font-bold  transition-colors">What Should I Bring To My First Meeting With A Commercial Vehicle Accident Lawyer?</a>
+                    <a href="#q7" class=" text-base lg:text-lg hover:font-bold  transition-colors">What Should I Bring To My First Meeting With A Bicycle, Pedestrian, and Motorcycle Accident Lawyer?</a>
                 </div>
 
+                <!-- Q/8 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q8">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q8" class=" text-base lg:text-lg hover:font-bold transition-colors">How Do I Know My Bicycle, Pedestrian, and Motorcycle Accident Lawyer Will Approach My Case In The Right Way?</a>
                 </div>
 
+                <!-- Q/9 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q9">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q9" class=" text-base lg:text-lg hover:font-bold transition-colors">Should I Get A Lawyer For A Bicycle, Pedestrian, and Motorcycle Accident?</a>

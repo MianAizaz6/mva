@@ -723,13 +723,13 @@ if (isset($_POST['finish'])) {
             <div id="q1" class="section-item bg-white p-2 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Is It Worth Hiring A Commercial Vehicle Accident Lawyer?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    Yes, hiring a commercial vehicle accident lawyer is a crucial step after a crash. While many cases settle before trial, an experienced attorney plays a pivotal role in negotiating with insurance companies and large corporations to secure the maximum possible compensation. They also have the expertise to take your case to trial if that becomes the best path to justice. Most importantly, a lawyer understands the complexities of personal injury law and can leverage all available evidence to build the strongest possible case on your behalf.
+                    Yes, hiring a commercial vehicle accident lawyer is a crucial step after a crash involving a truck, bus, or other commercial vehicle. While many cases settle before trial, an experienced commercial vehicle accident attorney plays a pivotal role in negotiating with insurance companies and large corporations to secure the maximum possible compensation. They also have the expertise to take your case to trial if that becomes the best path to justice. Most importantly, a commercial vehicle accident lawyer understands the complexities of personal injury law, including specific regulations for truck accidents and bus crashes, and can leverage all available evidence to build the strongest possible case on your behalf.
                 </p>
             </div>
 
             <!-- Q/2 -->
             <div id="q2" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">How Does A Commercial Vehicle Accident Lawyer Help?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px]">How Does A Commercial Vehicle Accident Lawyer Help?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">A lawyer handles all the legal complexities, allowing you to focus on your recovery. Their key responsibilities include:</p>
                 <div class="ml-6 mt-4 space-y-2">
                     <p class="font-bold">● Investigating the facts of the case</p>
@@ -757,13 +757,15 @@ if (isset($_POST['finish'])) {
             <!-- Q/3 -->
             <div id="q3" class="section-item bg-white p-6 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">How Much Does A Commercial Vehicle Accident Lawyer Cost?</h2>
-                <h3 class="text-xl lg:text-[25px] font-semibold  mb-3">Contingency Fee Arrangements And Free Consultations</h3>
+                <h3 class="text-xl lg:text-[25px] font-semibold  mb-3 leading-[38px]">Contingency Fee Arrangements And Free Consultations</h3>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    You may be concerned about the cost of hiring a lawyer, but it's important to know that most commercial vehicle accident attorneys work on a contingency basis. This means you pay nothing unless and until they successfully win your case and you obtain compensation. There are no upfront fees. Your attorney will cover all out-of-pocket expenses, such as the costs of litigation and working with expert witnesses and investigators.
+                    You may be concerned about the cost of hiring a commercial vehicle accident lawyer? Not a problem. Most commercial vehicle accident attorneys work on a contingency basis. This means you pay nothing unless and until they successfully win your case and you obtain compensation. There are no upfront costs. Put simply, the attorney will represent you for free.
                     <br><br>
-                    This fee structure is highly advantageous to you. It eliminates financial risk and incentivizes your attorney to work efficiently to maximize your recovery. The more they secure for you, the more they get paid, creating a win-win situation.
+                    They will cover out-of-pocket expenses, like: medical expenses, and costs of litigation, like: working with expert witnesses and investigators, building the case, and so on. Your commercial vehicle accident attorney may put in hundreds of thousands of dollars of work for free! Contingency fees make it easier for injured plaintiffs to secure quality legal representation. In exchange, the plaintiff will have to give a percentage of their recovery wins over to the attorney.
                     <br><br>
-                    Additionally, most commercial vehicle accident attorneys provide free consultations. This allows you to discuss your case and understand your legal options without any obligation. It’s a vital first step with no barrier to entry.
+                    For example, if your truck accident settlement lawyer secures $2,000,000, they may take a percentage in contingency fees, leaving you with a substantial recovery. This dynamic is highly advantageous. Not only do you pay no upfront costs, but it also incentivizes the attorney to work efficiently and to maximize your overall compensation. The more that your attorney can secure on your behalf, the more they get paid. It’s a win-win situation.
+                    <br><br>
+                    Most commercial vehicle accident attorneys also provide free consultations. This can help you understand whether you have an actionable injury claim, and whether you’d like to move forward with your case. There is no barrier to entry, so if you need truck accident lawyer or truck accident legal help, make sure to contact an accident attorney to get started on next steps.
                 </p>
             </div>
 
@@ -771,11 +773,14 @@ if (isset($_POST['finish'])) {
             <div id="q4" class="section-item bg-white p-6 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">How Much Is Your Case Worth?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    his is one of the most common questions we receive, and it’s a difficult one to answer without knowing the specific details of your case. The value of your claim is determined by a comprehensive review of the evidence, including who was at fault, the severity of your injuries, property damage, time off work, and long-term care needs.
+                    This is one of our most frequently asked questions! However, it’s a hard question to answer without knowing the facts of your case.
+                    <br><br>
+                    When you hire a commercial vehicle accident attorney, they will consider the evidence to determine how much your case may be worth. The value of your claim dictates the damages, or compensation, you might claim. Damages are based on, for example, who was at fault, the severity of your injuries (such as brain injury, spinal cord injury, or other catastrophic injury), property damage, whether you’ve had time off work, and whether you have long-term care needs.
+                    <br><br>
                     Generally, there are three types of damages in personal injury claims:
                 </p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Noneconomic Damages</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Non-economic damages are meant to compensate for intangible losses. They include:</p>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">What are Non-economic Damages? Non-economic damages include the following losses:</p>
                 <div class="ml-6 mt-4 space-y-2">
                     <h2 class="font-bold">● Pain and suffering</h2>
                     <h2 class="font-bold">● Loss of quality of life</h2>
@@ -783,101 +788,123 @@ if (isset($_POST['finish'])) {
                     <h2 class="font-bold">● And more</h2>
                 </div>
 
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Monetary, Or Economic Damages</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Economic damages are for quantifiable financial losses. These include:</p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3 leading-[38px]">Monetary, Or Economic Damages</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">What are economic damages? Economic damages include the following losses:</p>
                 <div class="ml-6 mt-4 space-y-2">
                     <h2 class="font-bold">● Lost wages</h2>
                     <h2 class="font-bold">● Loss of future earning capacity</h2>
                     <h2 class="font-bold">● Property loss</h2>
                     <h2 class="font-bold">● Past and future medical expenses</h2>
                 </div>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3"> Punitive Damages</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Punitive damages are distinct. They are awarded in limited cases to punish defendants for particularly malicious or reckless behavior (such as drunk driving) and to deter others from similar actions. These damages can significantly increase the total value of a claim, potentially into millions of dollars. An experienced lawyer can determine if you are entitled to punitive damages.</p>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Working With An Accident Lawyer As Soon As Possible</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">If you've been in a commercial vehicle accident, it's crucial to hire a lawyer as quickly as possible. This is not just about moving on with your life; there are practical, legal reasons for acting fast.</p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Punitive Damages</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">What are punitive damages? Punitive damages are somewhat different. They are meant to punish defendants who engaged in particularly problematic, malicious behavior (i.e., drunk driving, road rage accidents, etc.) — and are only available in limited cases.
+                    <br><br>
+                    Punitive damages are worth claiming where possible, however, as they multiply the baseline damages, leading to damage totals that can tally up into millions. An experienced commercial vehicle accident lawyer can explain if you’re entitled to punitive damages.
+                </p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3 leading-[38px]">Working With An Accident Lawyer As Soon As Possible</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">If you've been in a commercial vehicle accident, it's crucial to hire a commercial vehicle accident lawyer as quickly as possible. This is not just about moving on with your life; there are practical, legal reasons for acting fast.</p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Accident Case Investigation</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Attorneys have the resources to immediately launch a thorough investigation. They will identify witnesses, gather photographic and video evidence, and collect all relevant records (medical, police, employment, etc.). A skilled commercial vehicle accident attorney ensures all necessary procedures are followed, from preserving the vehicle's "black box" data as evidence to helping you craft a victim impact statement.</p>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">AAttorneys engage significant resources towards investigating the case. They identify witnesses, work to gather all relevant evidence (i.e., photographic and video evidence from nearby security cameras, medical records, police records, employment records, certifications, truck accident scene investigation reports, etc.), and evaluate potential legal arguments that could win the case for the plaintiff.
+                    <br><br>
+                </p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Preventing Problematic Disclosures</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">The success of your case can be undermined if you are found to be partially at fault for the accident. Your lawyer serves as a crucial communication middleman, speaking with opposing counsel and insurance companies on your behalf. This protects you from inadvertently making a statement that could jeopardize your claim and reduce your compensation.</p>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">As the plaintiff, the success of your case could be dramatically influenced by your own fault contribution. In other words, if you are partly responsible for your own injuries, then you could have your damages reduced. In some cases, a recovery may not be available at all. Examples may include:</p>
+                <div class="ml-6 mt-4 space-y-2">
+                    <h2 class="font-bold">
+                        ● If you were speeding at the time of the crash or collision, or
+                    </h2>
+                    <h2 class="font-bold">
+                        ● If you failed to wear a seatbelt when you were hurt or when the injuries happened.
+                    </h2>
+                </div>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">To minimize the likelihood of this occurrence, your injury attorney will serve as your communication middleman. They will speak with opposing counsel and with insurance companies or adjusters on your behalf. This, in turn, protects you from admitting certain facts that could undermine your accident case.</p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Statute of Limitation Issues</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">All personal injury claims are subject to a statute of limitations, which is a strict legal deadline. If you fail to file your claim within this timeframe, you lose your right to pursue a lawsuit. An attorney will be aware of all procedural deadlines and ensure your case is filed correctly and on time.</p>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">All personal injury disputes, including truck accidents, bus accidents, and other commercial vehicle accidents, are governed by applicable statutes of limitations. The statute of limitations is essentially a deadline. If you do not file your claim by the deadline, then you will no longer have a right to bring a lawsuit against the defendant. Simply put, a failure to act within a reasonable time period can prevent you from securing compensation.</p>
             </div>
 
             <!-- Q/5 -->
             <div id="q5" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Do I Need A Lawyer For Commercial Vehicle Accidents?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px]">Do I Need A Lawyer For Commercial Vehicle Accidents?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    While you can try to handle a commercial vehicle accident dispute on your own, it is strongly discouraged. As a victim, you are up against a system that is not on your side. Defendants can be hostile, and insurance companies will often outright reject your claim or offer a minimal settlement. A commercial vehicle accident attorney is your advocate, handling your case from start to finish and fighting relentlessly to secure the maximum compensation you deserve.
+                    While you can try to handle a commercial vehicle accident dispute on your own, it is strongly discouraged. As a victim, you are up against a system that is not on your side. Defendants can be hostile, and even if they are “friendly” they are unlikely to give you exactly what you want. Insurance companies and insurance adjusters are not your allies. If you try to secure an insurance payout, you’ll find:
                 </p>
+                <div class="ml-6 mt-4 space-y-2">
+                    <h2 class="font-bold">
+                        ● That they outright reject your claim for damages, or
+                    </h2>
+                    <h2 class="font-bold">
+                        ● That they undermine your accident claim and try to pay you as little as possible.
+                    </h2>
+                </div>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">That’s where your commercial vehicle accident attorney comes in. They will handle the case from start-to-finish and advocate relentlessly on your behalf, all to secure maximum possible compensation</p>
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Finding The Right Attorney</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Knowing you need a lawyer is one thing; finding the right one is another. Here are some key tips for making the best decision:</p>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Ask for an attorney</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">It can be challenging to assess an attorney's quality from a simple online search. Look for an experienced attorney with a strong reputation.</p>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Understand the fee structure</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Always confirm the attorney's fee structure. As mentioned, most work on a contingency basis, so you should have a clear understanding of the percentage they will take from your final recovery before moving forward.</p>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Experience matters</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Experience is a meaningful predictor of quality representation. An attorney who has handled many cases has a unique insight into common patterns in litigation, which can help them navigate your case to a successful outcome and avoid pitfalls.</p>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Go through a free consultation</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Take advantage of free consultations to get a feel for the attorney. This is your chance to gather information about your case and determine if their personality and approach are a good fit for you.</p>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Choosing between a large firm or small firm of commercial vehicle accident lawyers</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">The assumption that larger firms are always better is not necessarily true. At a large firm, your case can sometimes get lost in the shuffle, while many smaller firms excel at providing personalized, focused attention to each client. The best choice depends on your specific needs, and we can connect you with an experienced commercial vehicle accident lawyer who is capable of handling claims like yours.</p>
-
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">So you know that you need a commercial vehicle accident lawyer, but how do you find the right commercial vehicle accident attorney to fit your needs? Here are some key tips to make the best decision possible:</p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Ask For An Attorney</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">It can be difficult to assess the quality of an attorney from a cursory search online. Look for an experienced commercial vehicle accident lawyer with a strong reputation.</p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Understand The Fee Structure</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Always confirm the attorney's fee structure. As discussed earlier, most commercial vehicle accident lawyers work on a contingency basis, meaning they charge no upfront fee and get a percentage of the damages when you win your case. Before you sign anything, be sure that you have a complete understanding of “when” you have to pay and what that fee is based on. Commercial vehicle accident attorneys may work with different contingency fee percentages, so be sure that you’re comfortable with the amount before moving forward with that attorney.</p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Experience Matters</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Though experience isn’t the only predictor of quality representation, it is meaningful. An experienced commercial vehicle accident attorney has litigated many cases and has seen “patterns” in litigation. This gives them unique insights into how best to proceed with your case to maximize compensation and avoid a negative outcome. We encourage you to work with commercial vehicle accident attorneys who have helped clients navigate a variety of accident scenarios, including truck vs motorcycle accident or multi car truck accident.</p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Go Through A Free Consultation</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Most personal injury and commercial vehicle accident lawyers offer free advice or consultation. At this time, they gather more information through a phone call or online about your case and help identify strategic options. If a commercial vehicle accident lawyer wants money up front for a legal consultation, they are probably not the best candidate. It is important to evaluate whether you feel comfortable with an attorney. Consider: are your personalities compatible in the working context? If they are, you will enjoy a smoother process for your commercial vehicle accident claim or case, which can help to deal with an otherwise stressful experience.</p>
+                
             </div>
 
             <!-- Q/6 -->
             <div id="q6" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">What If My Case Seems Too Small For An Attorney To Take?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px]">Should I Look For A Large Or A Small Firm?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    Even if you believe your case is minor, you should still contact a commercial vehicle accident lawyer. They can assess the evidence and determine if there’s a viable path to compensation. While some attorneys may decline cases with small settlement potential due to overhead costs, many will still work to “build up” the value of the case to a reasonable level. If an attorney is unwilling to do that, you may want to explore hiring a different one.
+                    Oftentimes, the general public assumes that larger firms are “better” than smaller firms. That simply isn’t true. It’s important not to jump to conclusions. At larger firms, a commercial vehicle accident or personal injury case can get lost in the shuffle. It may not get the attention it deserves. By contrast, there are many small-to-medium-sized firms out there that do an excellent job in representing commercial vehicle accident victims.
                 </p>
             </div>
 
             <!-- Q/7 -->
             <div id="q7" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold mb-4">What Should I Bring To My First Meeting With A Commercial Vehicle Accident Lawyer?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold mb-4 leading-[38px]">What If My Case Seems Too Small For An Attorney To Take?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    A well-prepared first meeting is a great way to start your case. You should create a folder with copies of all documents related to your case, including:
-                </p>
-                <div class="ml-6 mt-4 space-y-2">
-                    <p class="font-bold">● Police reports</p>
-                    <p class="font-bold">● Accident descriptions</p>
-                    <p class="font-bold">● Photos and videos of the scene</p>
-                    <p class="font-bold">● Paycheck stubs to document wage loss</p>
-                    <p class="font-bold">● Medical bills and records</p>
-                    <p class="font-bold">● Any communications you've had with your insurance company</p>
-                </div>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px] mt-4">
-                    Organizing these documents beforehand will make the meeting more efficient and productive.
+                   Even if you believe your case is minor, you should still contact a commercial vehicle accident lawyer. They can assess the evidence and determine if there’s a viable path to compensation. Since most attorneys for commercial vehicle accidents are paid a percentage, some won’t accept cases where the settlement amount is relatively small. Every commercial vehicle accident attorney has overhead costs, after all, and they may feel that the investment is not enough to make the case worthwhile.
+                   <br><br>
+                   Fortunately, most cases can be “worked” up to a reasonable level. If a commercial vehicle accident attorney is unwilling to do that, you may want to explore hiring a different commercial vehicle accident lawyer.
                 </p>
             </div>
 
             <!-- Q/8 -->
             <div id="q8" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">How Do I Know My Commercial Vehicle Accident Lawyer Will Approach My Case In The Right Way?</h2>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px]">What Should I Bring To My First Meeting With A Commercial Vehicle Accident Lawyer?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    It is perfectly acceptable—and encouraged—to ask your lawyer about their strategic plan for your case. They should be able to
-                </p>
-                <div class="ml-6 mt-4 space-y-2">
-                    <p class="font-bold">● Estimate what your case is worth based on your injuries and other damages.</p>
-                    <p class="font-bold">● Explain their strategy for securing compensation for your commercial vehicle accident.</p>
-                </div>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px] mt-4">
-                    Remember, your lawyer is here to serve you. You have the right to ask questions and request that they approach things differently, such as negotiating a settlement rather than going to trial.
+                    The first sit-down meeting with your commercial vehicle accident attorney is important. Create a folder with copies of all documents that you have on-hand relating to the case. This may include police reports, accident descriptions, photos and videos, paycheck stubs, medical bills, and medical records. Be sure to also include any communications that you may have already had with your insurance company. Documents should be organized so that the commercial vehicle accident attorney doesn’t have to shuffle needlessly through materials.
                 </p>
             </div>
 
+            <!-- Q/9 -->
             <div id="q9" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Should I Get A Lawyer For A Commercial Vehicle Accident?</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Yes, it is absolutely critical that you hire a lawyer. Without one, you risk unintentionally damaging your case with a simple statement to an insurance adjuster. An experienced commercial vehicle accident attorney removes the stress of the legal process and will:</p>
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">How Do I Know My Commercial Vehicle Accident Lawyer Will Approach My Case In The Right Way?</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">It is perfectly acceptable—and encouraged—to ask your commercial vehicle accident lawyer how they plan on securing maximum compensation in your case. Commercial vehicle accident lawyers can estimate what your case is worth based on, for example, your injuries and medical bills. They will explain what they think is the best strategy for securing compensation for your commercial vehicle accident. You can ask questions or request that they approach things differently. After all, commercial vehicle accident lawyers are here to serve you. Here’s an example. If you don’t want to go to trial, you can ask your attorney to accept a settlement offer for you instead.</p>
+            </div>
 
-                <div class="ml-6 mt-4 space-y-2">
-                    <p class="font-bold">● Gather all evidence to support your injury claim</p>
-                    <p class="font-bold">● Fully investigate your case</p>
-                    <p class="font-bold">● Advocate on your behalf</p>
-                    <p class="font-bold">● Negotiate for a fair settlement</p>
-                    <p class="font-bold">● Take your case to trial if necessary</p>
-                    <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">By hiring a lawyer, you can confidently focus on moving forward with your life while they handle all the legal matters.</p>
+            <!-- Q/10 -->
+             <div id="q10" class="section-item bg-white p-6 rounded-lg shadow-sm">
+                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px]">Should I Get A Lawyer For A Commercial Vehicle Accident?ow Do I Know My Commercial Vehicle Accident Lawyer Will Approach My Case In The Right Way?</h2>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Yes, it is absolutely critical that you hire a lawyer. Without one, you risk unintentionally damaging your case with a simple statement to an insurance adjuster. An experienced commercial vehicle accident attorney removes the stress of filing a lawsuit. The best commercial vehicle accident lawyer will:</p>
+
+                 <div class="ml-6 mt-4 space-y-2">
+                    <h2 class="font-bold">
+                      ●	Fully investigate your case
+                    </h2>
+                    <h2 class="font-bold">
+                       ●	Gather all the evidence they can to support your injury claim
+                    </h2>
+                    <h2 class="font-bold">
+                        ●	Advocate on your behalf
+                    </h2>
+                    <h2 class="font-bold">
+                        ●	Negotiate for a fair settlement
+                    </h2>
+                    <h2 class="font-bold">
+                        ●	Take your commercial vehicle accident case to trial if this is in your best interests
+                    </h2>
                 </div>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">By hiring a lawyer, you can confidently focus on moving forward without worrying about legal matters.</p>
             </div>
         </div>
         <!-- FAQ's Sidebar - Sticky on large screens -->
@@ -891,51 +918,66 @@ if (isset($_POST['finish'])) {
 
             <!-- FAQ QUESTION links -->
             <div class="flex flex-col gap-1">
+
+                <!-- Q/1 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q1">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q1" class=" text-base lg:text-lg hover:font-bold  transition-colors">Is It Worth Hiring A Commercial Vehicle Accident Lawyer?</a>
                 </div>
 
+                <!-- Q/2 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q2">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q2" class=" text-base lg:text-lg hover:font-bold  transition-colors">How Does A Commercial Vehicle Accident Lawyer Help?</a>
                 </div>
 
+                <!-- Q/3 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q3">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q3" class=" text-base lg:text-lg hover:font-bold  transition-colors">How Much Does A Commercial Vehicle Accident Lawyer Cost?</a>
                 </div>
 
+                <!-- Q/4 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q4">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q4" class=" text-base lg:text-lg hover:font-bold  transition-colors">How Much Is Your Case Worth?</a>
                 </div>
 
+                <!-- Q/5 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q5">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
                     <a href="#q5" class=" text-base lg:text-lg hover:font-bold  transition-colors">Do I Need A Lawyer For Commercial Vehicle Accidents?</a>
                 </div>
 
+                <!-- Q/6 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q6">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
-                    <a href="#q6" class=" text-base lg:text-lg hover:font-bold  transition-colors">What If My Case Seems Too Small For An Attorney To Take?</a>
+                    <a href="#q6" class=" text-base lg:text-lg hover:font-bold  transition-colors">Should I Look For A Large Or A Small Firm?</a>
                 </div>
 
+                <!-- Q/7 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q7">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
-                    <a href="#q7" class=" text-base lg:text-lg hover:font-bold  transition-colors">What Should I Bring To My First Meeting With A Commercial Vehicle Accident Lawyer?</a>
+                    <a href="#q7" class=" text-base lg:text-lg hover:font-bold  transition-colors">What If My Case Seems Too Small For An Attorney To Take?</a>
                 </div>
 
+                <!-- Q/8 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q8">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
-                    <a href="#q8" class=" text-base lg:text-lg hover:font-bold transition-colors">How Do I Know My Commercial Vehicle Accident Lawyer Will Approach My Case In The Right Way?</a>
+                    <a href="#q8" class=" text-base lg:text-lg hover:font-bold transition-colors">What Should I Bring To My First Meeting With A Commercial Vehicle Accident Lawyer?</a>
                 </div>
 
+                <!-- Q/9 -->
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q9">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
-                    <a href="#q9" class=" text-base lg:text-lg hover:font-bold transition-colors">Should I Get A Lawyer For A Commercial Vehicle Accident?</a>
+                    <a href="#q9" class=" text-base lg:text-lg hover:font-bold transition-colors">How Do I Know My Commercial Vehicle Accident Lawyer Will Approach My Case In The Right Way?</a>
                 </div>
 
+                <!-- Q/10 -->
+                <div class="flex justify-start items-center gap-2 faq-link" data-target="q10">
+                    <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
+                    <a href="#q10" class=" text-base lg:text-lg hover:font-bold transition-colors">Should I Get A Lawyer For A Commercial Vehicle Accident?</a>
+                </div>
 
             </div>
         </div>
