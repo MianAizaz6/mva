@@ -68,10 +68,27 @@
             <a href="./contact.php" class="text-white font-medium text-[17px]">CONTACT US</a>
         </div>
 
-        <div class="max-w-[700px] w-full absolute top-60 left-1/2 -translate-x-1/2">
-            <h2 class="text-white text-center relative z-10 font-semibold lg:text-[26px] sm:text-xl">Partnered with over 350 law firms</h2>
-            <h2 class="text-white text-center relative z-10 font-semibold lg:text-[26px] sm:text-xl py-10">Reaching millions of consumers seeking legal assistance</h2>
-            <h2 class="text-white text-center relative z-10 font-semibold lg:text-[26px] sm:text-xl">Available 24/7</h2>
+        <div class="max-w-[700px] w-full absolute top-24 left-1/2 -translate-x-1/2">
+            <div class="bg-white/80 py-11 px-6 shadow-lg z-20 border border-gray-200 rounded-md md:min-h-[500px] w-full">
+                <div class="text-center">
+                    <!-- Heading -->
+                   
+                 <!-- Description -->
+                    <p class="text-gray-800 text-[14px] sm:text-[24px] mb-4">
+                        Infinite Quote Hub is dedicated to making legal assistance accessible and improving case outcomes by seamlessly connecting individuals with our extensive network of over 350 vetted, local attorney partners. We operate on core values of integrity, trustworthiness, accessibility, and expertise, ensuring every client receives the knowledgeable and compassionate representation they deserve. Available 24/7, we strive to understand your unique legal needs, build trust through a human-centered approach, and empower you to confidently navigate the legal process to secure the best possible results.
+                    </p>
+
+                    <!-- Buttons -->
+                    <div class="flex flex-col sm:flex-row justify-center gap-4 mt-4">
+                        <a href="tel:8336152933" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-semibold text-sm sm:text-base shadow-md">
+                            CALL (833) 615 2933
+                        </a>
+                        <a href="#form" class="bg-gray-800 hover:bg-[#005fa3] transition text-white px-6 py-3 rounded-md font-semibold text-sm sm:text-base shadow-md">
+                            SCHEDULE A FREE CONSULTATION
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -111,31 +128,7 @@
         </p>
     </div>
 
-    <!-- SCRIPT -->
-    <script>
-        const toggleBtn = document.getElementById('menu-toggle');
-        const wrapper = document.getElementById('mobile-wrapper');
-        const hamburgerIcon = document.getElementById('hamburger-icon');
-        const closeIcon = document.getElementById('close-icon');
-        const menuClose = document.getElementById('menu-close');
 
-        // Toggle open/close
-        toggleBtn.addEventListener('click', () => {
-            const isOpen = wrapper.classList.contains('scale-y-100');
-            wrapper.classList.toggle('scale-y-0');
-            wrapper.classList.toggle('scale-y-100');
-            hamburgerIcon.classList.toggle('hidden');
-            closeIcon.classList.toggle('hidden');
-        });
-
-        // Close with inside cross
-        menuClose.addEventListener('click', () => {
-            wrapper.classList.add('scale-y-0');
-            wrapper.classList.remove('scale-y-100');
-            hamburgerIcon.classList.remove('hidden');
-            closeIcon.classList.add('hidden');
-        });
-    </script>
 
 
     <div class="bg-gray-800 px-10 ">
@@ -202,6 +195,32 @@
 
         </div>
     </footer>
+
+    <!-- SCRIPT -->
+    <script>
+        const toggleBtn = document.getElementById('menu-toggle');
+        const wrapper = document.getElementById('mobile-wrapper');
+        const hamburgerIcon = document.getElementById('hamburger-icon');
+        const closeIcon = document.getElementById('close-icon');
+        const menuClose = document.getElementById('menu-close');
+
+        // Toggle open/close
+        toggleBtn.addEventListener('click', () => {
+            const isOpen = wrapper.classList.contains('scale-y-100');
+            wrapper.classList.toggle('scale-y-0');
+            wrapper.classList.toggle('scale-y-100');
+            hamburgerIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
+
+        // Close with inside cross
+        menuClose.addEventListener('click', () => {
+            wrapper.classList.add('scale-y-0');
+            wrapper.classList.remove('scale-y-100');
+            hamburgerIcon.classList.remove('hidden');
+            closeIcon.classList.add('hidden');
+        });
+    </script>
 
 </body>
 
