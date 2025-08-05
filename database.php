@@ -4,8 +4,8 @@ $dbservername1 = "107.180.119.64";
 $dbUsername1 = "leads_user";
 $dbPassword1 = "Insurance_leads12";
 $dbName1 = "insurance";
-$connection = mysqli_connect($dbservername1, $dbUsername1, $dbPassword1, $dbName1);
-// $connection = mysqli_connect('localhost', 'root', '', 'insurance');
+// $connection = mysqli_connect($dbservername1, $dbUsername1, $dbPassword1, $dbName1);
+$connection = mysqli_connect('localhost', 'root', '', 'insurance');
 
 if (!$connection) {
   die("Connection failed: " . mysqli_connect_error());

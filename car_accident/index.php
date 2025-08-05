@@ -71,7 +71,7 @@ if (isset($_POST['finish'])) {
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Infinite Quote Hub</title>
+    <title>Car Accident</title>
     <!-- 
   <script type="text/javascript">
     function getHostCountry() {
@@ -311,11 +311,11 @@ if (isset($_POST['finish'])) {
             function handleResponsive() {
                 if (window.innerWidth < 1024) {
                     // For smaller screens, make the sidebar scrollable
-                    faqSidebar.classList.remove('lg:sticky', 'lg:top-5', 'lg:h-[90vh]');
+                    faqSidebar.classList.remove('lg:sticky', 'lg:top-0', 'lg:h-[100vh]');
                     faqSidebar.classList.add('max-h-[60vh]', 'overflow-y-auto');
                 } else {
                     // For larger screens, maintain sticky behavior
-                    faqSidebar.classList.add('lg:sticky', 'lg:top-5', 'lg:h-[90vh]');
+                    faqSidebar.classList.add('lg:sticky', 'lg:top-0', 'lg:h-[100vh]');
                     faqSidebar.classList.remove('max-h-[60vh]', 'overflow-y-auto');
                 }
             }
@@ -520,7 +520,7 @@ if (isset($_POST['finish'])) {
                                 </h2>
                             </div>
                             <div class="flex flex-grow justify-center items-center">
-                                <img src="../images/card 1.png" alt="" class="w-[120px] h-[120px] object-contain">
+                                <img src="../images/trophy.png" alt="" class="w-[120px] h-[120px] object-contain">
                             </div>
                         </div>
 
@@ -531,7 +531,7 @@ if (isset($_POST['finish'])) {
                                 </h2>
                             </div>
                             <div class="flex flex-grow justify-center items-center">
-                                <img src="../images/card 2.png" alt="" class="w-[100px] h-[100px] object-contain">
+                                <img src="../images/responsible.png" alt="" class="w-[100px] h-[100px] object-contain">
                             </div>
                         </div>
 
@@ -541,7 +541,7 @@ if (isset($_POST['finish'])) {
                                 <h2 class="font-bold text-[18px] text-center">Helped over 500,000 Clients</h2>
                             </div>
                             <div class="flex flex-grow justify-center items-center">
-                                <img src="../images/truck.png" alt="" class="w-[100px] h-[100px] object-contain">
+                                <img src="../images/users.png" alt="" class="w-[100px] h-[100px] object-contain">
                             </div>
                         </div>
                     </div>
@@ -556,7 +556,7 @@ if (isset($_POST['finish'])) {
                                 </h2>
                             </div>
                             <div class="flex flex-grow justify-center items-center">
-                                <img src="../images/truck.png" alt="" class="w-[100px] h-[100px] object-contain">
+                                <img src="../images/no win.png" alt="" class="w-[100px] h-[100px] object-contain">
                             </div>
                         </div>
 
@@ -568,7 +568,7 @@ if (isset($_POST['finish'])) {
                                 </h2>
                             </div>
                             <div class="flex flex-grow justify-center items-center">
-                                <img src="../images/truck.png" alt="" class="w-[100px] h-[100px] object-contain">
+                                <img src="../images/24-hours.png" alt="" class="w-[100px] h-[100px] object-contain">
                             </div>
                         </div>
 
@@ -580,7 +580,7 @@ if (isset($_POST['finish'])) {
                                 </h2>
                             </div>
                             <div class="flex flex-grow justify-center items-center">
-                                <img src="../images/truck.png" alt="" class="w-[100px] h-[100px] object-contain">
+                                <img src="../images/support.png" alt="" class="w-[100px] h-[100px] object-contain">
                             </div>
                         </div>
 
