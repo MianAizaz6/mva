@@ -28,12 +28,12 @@ if (isset($_POST['finish'])) {
 
 
     $first_name = $_POST['full_name']; // required
-    $last_name = $_POST['last_name']; // required
+
 
     $number = $_POST['phone']; // required
 
 
-    $email_from = $_POST['pemail'];  // required
+    $email_from = $_POST['email'];  // required
 
     $ZipCode = $_POST['zip']; // required
     $Address = $_POST['state']; // required
@@ -44,16 +44,16 @@ if (isset($_POST['finish'])) {
 
     $type = "Manual";
 
-    include_once 'database.php';
+    include_once '../database.php';
 
     $sql = "INSERT INTO insurance_leads (lead_id,first_name,last_name,website,phone,campaign,email,zipcode,city,state,ipaddress,de_status,user_type,lead_date,lead_time)
-   VALUES('$LeadId','$first_name','$last_name','mva.infinitequotehub.com','$number','MVA','$email_from','$ZipCode','','$Address','$user_ip','$type','$id',now(),now());";
+   VALUES('$LeadId','$first_name','','mva.infinitequotehub.com','$number','MVA','$email_from','$ZipCode','','$Address','$user_ip','$type','$id',now(),now());";
 
     $run = mysqli_query($connection, $sql);
     // $run2 = mysqli_query($connection, $sql);
 
     if ($run) {
-        header("Location: index.php?success=true");
+        header("Location: ../message.html");
         exit;
     } else {
         header("Location: index.php?error=true");
@@ -724,14 +724,14 @@ if (isset($_POST['finish'])) {
             <div id="q1" class="section-item bg-white p-2 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Is It Worth Hiring A Car Accident Lawyer?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    Yes, hiring a car accident lawyer is a crucial step after a crash. While many cases settle before trial, an experienced attorney plays a pivotal role in negotiating with insurance companies to secure the maximum possible compensation. They also have the expertise to take your case to trial if that becomes the best path to justice. Most importantly, a lawyer understands the complexities of personal injury law and can leverage all available evidence to build the strongest possible case on your behalf.
+                    Yes, hiring a car accident lawyer is a crucial step after a crash. While many car accident cases settle long before they ever go to trial, an experienced auto accident attorney plays a pivotal role in negotiating settlements and getting victims the maximum amount of compensation. They also have the expertise to take your case to trial if this is the best way forward. Most importantly, car accident lawyers understand how this complex area of law works. They can make the most of the evidence available and help you build the strongest possible case.
                 </p>
             </div>
 
             <!-- Q/2 -->
             <div id="q2" class="section-item bg-white p-6 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">How Does A Car Accident Lawyer Help?</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">A lawyer handles all the legal complexities, allowing you to focus on your recovery. Their key responsibilities include:</p>
+                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Key Responsibilities Of A Car Accident Lawyer Include:</p>
                 <div class="ml-6 mt-4 space-y-2">
                     <p class="font-bold">● Investigating the facts of the case</p>
                     <p class="font-bold">● Gathering and preserving evidence for trial</p>
@@ -743,7 +743,7 @@ if (isset($_POST['finish'])) {
                     <p class="font-bold">● Reacting dynamically to changing circumstances</p>
                 </div>
 
-                <h3 class="text-xl lg:text-[25px] font-bold  mt-6">Compensation</h3>
+                <h3 class="text-xl lg:text-[25px] font-bold  mt-6">Getting Compensation</h3>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">The primary goal of a personal injury attorney is to secure compensation for all losses caused by the accident. These losses, also known as damages, may include:</p>
                 <div class="ml-6 mt-4 space-y-2">
                     <p class="font-bold">● Wage loss</p>
@@ -760,46 +760,153 @@ if (isset($_POST['finish'])) {
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">How Much Does A Car Accident Lawyer Cost?</h2>
                 <h3 class="text-xl lg:text-[25px] font-semibold  mb-3">Contingency Fee Arrangements And Free Consultations</h3>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    You may be concerned about the cost of hiring a lawyer, but it's important to know that most car accident attorneys work on a contingency basis. This means you pay nothing unless and until they successfully win your case and you obtain compensation. There are no upfront fees. Your attorney will cover all out-of-pocket expenses, such as the costs of litigation and working with expert witnesses and investigators.
+                    You may be concerned about the cost of hiring a car accident attorney? Not a problem. Most car accident attorneys work on a contingency basis. This means that you pay nothing unless and until you “win” the case and obtain compensation. There are no upfront costs. Put simply, the attorney will represent you for free.
                     <br><br>
-                    This fee structure is highly advantageous to you. It eliminates financial risk and incentivizes your attorney to work efficiently to maximize your recovery. The more they secure for you, the more they get paid, creating a win-win situation.
+                    They will cover out-of-pocket expenses, like: medical expenses, and costs of litigation, like: working with expert witnesses and investigators, building the case, and so on. Your motor vehicle crash attorney may put in hundreds of thousands of dollars of work for free! Contingency fees make it easier for injured plaintiffs to secure quality legal representation. In exchange, the plaintiff will have to give a percentage of their recovery wins over to the attorney.
                     <br><br>
-                    Additionally, most car accident attorneys provide free consultations. This allows you to discuss your case and understand your legal options without any obligation. It's a vital first step with no barrier to entry.
+                    For example, if your attorney settles your car accident case for $200,000, they may take $50,000 in contingency fees, and leave you with a final recovery of $150,000. This dynamic is advantageous for the plaintiff. Not only do you pay no upfront costs, but it also incentivizes the attorney to work efficiently and to maximize your overall compensation. The more that your attorney can secure on your behalf, the more they get paid. It’s a win-win situation.
+                    <br><br>
+                    Most car accident attorneys also provide lawyer consultations free of charge. This can help you understand whether you have an actionable claim, and whether you’d like to move forward with your case. There is no barrier to entry, so make sure to contact an accident attorney to get started on next steps. Contact 1-833-615-2933 to be connected to an experienced car accident injury lawyer nearby in our network.
                 </p>
             </div>
 
             <!-- Q/4 -->
             <div id="q4" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Do I Need A Lawyer For Car Accidents?</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    While you can try to handle a car accident dispute on your own, it is strongly discouraged. As a victim, you are up against a system that is not on your side. Defendants can be hostile, and insurance companies will often outright reject your claim or offer a minimal settlement. An auto accident attorney is your advocate, handling your case from start to finish and fighting relentlessly to secure the maximum compensation you deserve.
-                </p>
+                <h2 class="text-2xl lg:text-[35px] font-bold mb-4">How Much Is Your Case Worth?</h2>
+                <div class="text-base lg:text-md leading-relaxed lg:leading-[30px] space-y-5">
+                    <p>This is one of our most frequently asked questions! However, it’s a hard question to answer without knowing the facts of your case.</p>
+
+                    <p>When you hire a car accident attorney, they will consider the evidence to determine how much your case may be worth. The value of your claim dictates the damages, or compensation, you might claim. Damages are based on, for example, who was at fault, your injuries, property damage, whether you’ve had time off work, and whether you have long-term care needs.</p>
+
+                    <p>Roughly speaking, there are three types of damages in personal injury claims:</p>
+
+                    <h3 class="text-lg font-semibold">Noneconomic Damages</h3>
+                    <p>What are Non-economic Damages? Non-economic damages include the following losses:</p>
+                    <ul class="list-disc pl-6 space-y-1 font-semibold">
+                        <li>Pain and suffering</li>
+                        <li>Loss of quality of life</li>
+                        <li>Emotional distress</li>
+                        <li>And more</li>
+                    </ul>
+
+                    <h3 class="text-lg font-semibold">Monetary, Or Economic Damages</h3>
+                    <p>What are economic damages? Economic damages include the following losses:</p>
+                    <ul class="list-disc pl-6 space-y-1 font-semibold">
+                        <li>Lost wages</li>
+                        <li>Loss of future earning capacity</li>
+                        <li>Property loss</li>
+                        <li>Past and future medical expenses</li>
+                    </ul>
+
+                    <h3 class="text-lg font-semibold">Punitive Damages</h3>
+                    <p>What are punitive damages? Punitive damages are somewhat different. They are meant to punish defendants who engaged in particularly problematic, malicious behavior (i.e., drunk driving, road rage accidents, etc.) — and are only available in limited cases.</p>
+                    <p>Punitive damages are worth claiming where possible, however, as they multiply the baseline damages, leading to damage totals that can tally up into millions. An experienced car accident lawyer can explain if you’re entitled to punitive damages.</p>
+
+                    <h3 class="text-lg font-semibold">Working With An Accident Lawyer As Soon As Possible</h3>
+                    <p>If you have a car accident, hire a motor vehicle accident lawyer as quickly as you can. Why? Well, it’s not just about moving on with your life – although this is also important. There are practical reasons why you should hire motor vehicle accident lawyers sooner rather than later.</p>
+
+                    <h4 class="font-semibold">Accident Case Investigation</h4>
+                    <p>Attorneys engage significant resources towards investigating the case. They identify witnesses, work to gather all relevant evidence (i.e., photographic and video evidence from nearby security cameras, medical records, police records, employment records, certifications, etc.), and evaluate potential legal arguments that could win the case for the plaintiff.</p>
+                    <p>Skilled auto accident attorneys have their fingers on the pulse of the case at all times — you can rest easy knowing that all necessary procedures will be followed. For example, if you’ve been in a collision accident, an attorney will take steps to preserve the totaled vehicle (as it can serve as valuable evidence in reconstructing the accident). They’ll also help you write your victim impact statement, which can help determine the value of your claim.</p>
+
+                    <h4 class="font-semibold">Preventing Problematic Disclosures</h4>
+                    <p>As the plaintiff, the success of your case could be dramatically influenced by your own fault contribution. In other words, if you are partly responsible for your own injuries, then you could have your damages reduced. In some cases, a recovery may not be available at all. Examples may include:</p>
+                    <ul class="list-disc pl-6 space-y-1 font-semibold">
+                        <li>If you were speeding at the time of the crash or collision, or</li>
+                        <li>If you failed to wear a seatbelt when you were hurt or when the injuries happened.</li>
+                    </ul>
+                    <p>To minimize the likelihood of this occurrence, your injury attorney will serve as your communication middleman. They will speak with opposing counsel and with insurance companies or adjusters on your behalf. This, in turn, protects you from admitting certain facts that could undermine your accident case.</p>
+
+                    <h4 class="font-semibold">Statute of Limitation Issues</h4>
+                    <p>All personal injury disputes, including car accidents, motorcycle accidents, pedestrian accidents, truck accidents, and so forth are governed by applicable statutes of limitations. The statute of limitations is essentially a deadline. If you do not file your claim by the deadline, then you will no longer have a right to bring a lawsuit against the defendant. Simply put, a failure to act within a reasonable time period can prevent you from securing compensation.</p>
+                    <p>Given this deadline issue, it’s critical that you consult with an attorney as soon as possible after an accident. Your attorney will be aware of all procedural matters, such as case deadlines, and will file within the applicable timeframe.</p>
+
+                    <p class="mt-4 font-semibold">
+                        Call <a href="tel:1-833-615-2933" class="text-blue-600 underline">1-833-615-2933</a> for a free accident lawyer consultation.
+                    </p>
+                </div>
             </div>
+
 
             <!-- Q/5 -->
             <div id="q5" class="section-item bg-white p-6 rounded-lg shadow-sm">
-                <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">What If My Case Seems Too Small For An Attorney To Take?</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    Even if you believe your case is minor, you should still contact a car accident lawyer. They can assess the evidence and determine if there's a viable path to compensation. While some attorneys may decline cases with small settlement potential due to overhead costs, many will still work to "build up" the value of the case to a reasonable level. If an attorney is unwilling to do so, it may be a sign to seek a different one.
-                </p>
+                <h2 class="text-2xl lg:text-[35px] font-bold mb-4">Do I Need A Lawyer For Car Accidents?</h2>
+                <div class="text-base lg:text-md leading-relaxed lg:leading-[30px] space-y-5">
+                    <p>
+                        Though you can “attempt” to handle a car accident dispute on your own, it is a genuinely horrible idea. As a victim, you are surrounded by enemies.
+                    </p>
+                    <p>
+                        Defendants can be hostile, and even if they are “friendly” they are unlikely to give you exactly what you want. Insurance companies and insurance adjusters are not your allies. If you try to secure an insurance payout, you’ll find:
+                    </p>
+                    <ul class="list-disc pl-6 space-y-1 font-semibold">
+                        <li>That they outright reject your claim for damages, or</li>
+                        <li>That they undermine your accident claim and try to pay you as little as possible.</li>
+                    </ul>
+                    <p>
+                        That’s where your auto accident attorney comes in. They will handle the case from start-to-finish and advocate relentlessly on your behalf, all to secure maximum possible compensation.
+                    </p>
+
+                    <h3 class="text-lg font-semibold">Finding The Right Attorney</h3>
+                    <p>So you know that you need an accident lawyer, but how do you find the right car accident lawyer to fit your needs? Here are some tips to make the best decision possible:</p>
+
+                    <h4 class="font-semibold">Ask For An Attorney</h4>
+                    <p>
+                        It can be difficult to assess the quality of an attorney from a cursory search online. Here at <a href="tel:1-833-615-2933" class="text-blue-600 underline">1-833-615-2933</a>, our network consists of experienced car accident attorneys. We’ll connect you to an attorney in our network in just ten minutes or less. Our experienced attorneys will fight to get you the compensation you deserve.
+                    </p>
+
+                    <h4 class="font-semibold">Understand The Fee Structure</h4>
+                    <p>
+                        As discussed earlier, most car accident lawyers work on a contingency basis, meaning they charge no upfront fee and get a percentage of the damages when you win your case.
+                    </p>
+                    <p>
+                        Before you sign anything, be sure that you have a complete understanding of “when” you have to pay and what that fee is based on. Auto accident lawyers may work with different contingency fee percentages, so be sure that you’re comfortable with the amount before moving forward with that attorney.
+                    </p>
+
+                    <h4 class="font-semibold">Experience Matters</h4>
+                    <p>
+                        Though experience isn’t the only predictor of quality representation, it is meaningful. An experienced car accident attorney has litigated many cases and has seen “patterns” in litigation. This gives them unique insights into how best to proceed with your case to maximize compensation and avoid a negative outcome.
+                    </p>
+                    <p>
+                        We encourage you to work with car accident attorneys who have helped clients navigate a variety of accident scenarios.
+                    </p>
+
+                    <h4 class="font-semibold">Go Through A Free Consultation</h4>
+                    <p>
+                        Most personal injury and accident lawyers offer free advice or consultation through a hotline. At this time, they gather more information through a phone call or online about your case and help identify strategic options.
+                    </p>
+                    <p>
+                        If a car accident lawyer wants money up front for a legal consultation, they are probably not the best candidate.
+                    </p>
+                    <p>
+                        It is important to evaluate whether you feel comfortable with an attorney. Consider: are your personalities compatible in the working context? If they are, you will enjoy a smoother process for your car accident claim or case, which can help to deal with an otherwise stressful experience.
+                    </p>
+                    <p class="font-semibold">
+                        Call <a href="tel:1-833-615-2933" class="text-blue-600 underline">1-833-615-2933</a> to find the best auto accident lawyer near you and to get started on your car accident case.
+                    </p>
+
+                    <h4 class="font-semibold">Should I Look For A Large Or A Small Firm?</h4>
+                    <p>
+                        Oftentimes, the general public assumes that larger firms are “better” than smaller firms. That simply isn’t true. It’s important not to jump to conclusions.
+                    </p>
+                    <p>
+                        At larger firms, a car accident or personal injury case can get lost in the shuffle. It may not get the attention it deserves.
+                    </p>
+                    <p>
+                        By contrast, there are many small-to-medium-sized firms out there that do an excellent job in representing car accident victims.
+                    </p>
+                </div>
             </div>
+
 
             <!-- Q/6 -->
             <div id="q6" class="section-item bg-white p-6 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">What Should I Bring To My First Meeting With A Car Accident Lawyer?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    A well-prepared first meeting is a great way to start your case. You should create a folder with copies of all documents related to your case, including:
+                    Even if you believe your case is minor, you should still contact a car accident lawyer. They can assess the evidence and determine if there’s a viable path to compensation. Since most attorneys for vehicle accidents are paid a percentage, some won’t accept cases for auto accidents where the settlement amount is relatively small. Every car accident attorney has overhead costs, after all, and they may feel that the investment is not enough to make the case worthwhile.
                 </p>
-                <div class="ml-6 mt-4 space-y-2">
-                    <p class="font-bold">● Police reports</p>
-                    <p class="font-bold">● Accident descriptions</p>
-                    <p class="font-bold">● Photos and videos of the scene</p>
-                    <p class="font-bold">● Paycheck stubs to document wage loss</p>
-                    <p class="font-bold">● Medical bills and records</p>
-                    <p class="font-bold">● Any communications you've had with your insurance company</p>
-                </div>
+
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px] mt-4">
-                    Organizing these documents beforehand will make the meeting more efficient and productive.
+                    The first sit-down meeting with your car accident attorney is important. Create a folder with copies of all documents that you have on-hand relating to the case. This may include police reports, accident descriptions, photos and videos, paycheck stubs, medical bills, and medical records. Be sure to also include any communications that you may have already had with your insurance company. Documents should be organized so that the car accident attorney doesn’t have to shuffle needlessly through materials.
                 </p>
             </div>
 
@@ -807,32 +914,26 @@ if (isset($_POST['finish'])) {
             <div id="q7" class="section-item bg-white p-6 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold mb-4">How Do I Know My Car Accident Lawyer Will Approach My Case In The Right Way?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    It is perfectly acceptable—and encouraged—to ask your lawyer about their strategic plan for your case. They should be able to:
+                    It is perfectly acceptable—and encouraged—to ask your car accident lawyer how they plan on securing maximum compensation in your case. Car lawyers can estimate what your case is worth based on, for example, your injuries and medical bills. They will explain what they think is the best strategy for securing compensation for your car accident. You can ask questions or request that they approach things differently. After all, car accident lawyers are here to serve you. Here’s an example. If you don’t want to go to trial, you can ask your attorney to accept a settlement offer for you instead.
                 </p>
-                <div class="ml-6 mt-4 space-y-2">
-                    <p class="font-bold">● Estimate what your case is worth based on your injuries and other damages.</p>
-                    <p class="font-bold">● Explain their strategy for securing compensation for your car accident.</p>
-                </div>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px] mt-4">
-                    Remember, your lawyer is here to serve you. You have the right to ask questions and request that they approach things differently, such as negotiating a settlement rather than going to trial.
-                </p>
+
             </div>
 
             <!-- Q/8 -->
             <div id="q8" class="section-item bg-white p-6 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4">Should I Get A Lawyer For A Car Accident?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                    Yes, it is absolutely critical that you hire a lawyer. Without one, you risk unintentionally damaging your case with a simple statement to an insurance adjuster. An experienced car accident attorney removes the stress of the legal process and will:
+                    Yes, it is absolutely critical that you do so. Otherwise, there’s a chance you might accidentally say something to your insurer which undermines your entire case. An experienced car accident attorney removes the stress of filing a lawsuit. The best car accident lawyer will:
                 </p>
                 <div class="ml-6 mt-4 space-y-2">
                     <p class="font-bold">● Fully investigate your case</p>
                     <p class="font-bold">● Gather all evidence to support your injury claim</p>
                     <p class="font-bold">● Advocate on your behalf</p>
                     <p class="font-bold">● Negotiate for a fair settlement</p>
-                    <p class="font-bold">● Take your case to trial if necessary</p>
+                    <p class="font-bold">● Take your car accident case to trial if this is in your best interests</p>
                 </div>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px] mt-4">
-                    By hiring a lawyer, you can confidently focus on moving forward with your life while they handle all the legal matters.
+                    By hiring a lawyer, you can confidently focus on moving forward without worrying about legal matters.
                 </p>
             </div>
         </div>
@@ -864,17 +965,17 @@ if (isset($_POST['finish'])) {
 
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q4">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
-                    <a href="#q4" class=" text-base lg:text-lg hover:font-bold  transition-colors">Do I Need A Lawyer For Car Accidents?</a>
+                    <a href="#q4" class=" text-base lg:text-lg hover:font-bold  transition-colors">How Much Is Your Case Worth?</a>
                 </div>
 
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q5">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
-                    <a href="#q5" class=" text-base lg:text-lg hover:font-bold  transition-colors">What If My Case Seems Too Small For An Attorney To Take?</a>
+                    <a href="#q5" class=" text-base lg:text-lg hover:font-bold  transition-colors">Do I Need A Lawyer For Car Accidents?</a>
                 </div>
 
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q6">
                     <img src="../images/right-icon.png" alt="" class="transition-transform duration-200 w-4 h-4 invert">
-                    <a href="#q6" class=" text-base lg:text-lg hover:font-bold  transition-colors">What Should I Bring To My First Meeting With A Car Accident Lawyer?</a>
+                    <a href="#q6" class=" text-base lg:text-lg hover:font-bold  transition-colors">What If My Case Seems Too Small For An Attorney To Take?</a>
                 </div>
 
                 <div class="flex justify-start items-center gap-2 faq-link" data-target="q7">

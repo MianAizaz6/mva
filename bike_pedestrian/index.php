@@ -28,12 +28,11 @@ if (isset($_POST['finish'])) {
 
 
     $first_name = $_POST['full_name']; // required
-    $last_name = $_POST['last_name']; // required
 
     $number = $_POST['phone']; // required
 
 
-    $email_from = $_POST['pemail'];  // required
+    $email_from = $_POST['email'];  // required
 
     $ZipCode = $_POST['zip']; // required
     $Address = $_POST['state']; // required
@@ -44,16 +43,16 @@ if (isset($_POST['finish'])) {
 
     $type = "Manual";
 
-    include_once 'database.php';
+    include_once '../database.php';
 
     $sql = "INSERT INTO insurance_leads (lead_id,first_name,last_name,website,phone,campaign,email,zipcode,city,state,ipaddress,de_status,user_type,lead_date,lead_time)
-   VALUES('$LeadId','$first_name','$last_name','mva.infinitequotehub.com','$number','MVA','$email_from','$ZipCode','','$Address','$user_ip','$type','$id',now(),now());";
+   VALUES('$LeadId','$first_name','','mva.infinitequotehub.com','$number','MVA','$email_from','$ZipCode','','$Address','$user_ip','$type','$id',now(),now());";
 
     $run = mysqli_query($connection, $sql);
     // $run2 = mysqli_query($connection, $sql);
 
     if ($run) {
-        header("Location: index.php?success=true");
+        header("Location: ./message.html");
         exit;
     } else {
         header("Location: index.php?error=true");
