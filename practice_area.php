@@ -272,77 +272,79 @@ if (isset($_POST['finish'])) {
         <!-- Card 1 -->
         <a href="./car_accident/index.php">
           <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
-          <img src="./images/practice_areas/accidented_car.jpg" alt="Car Accident" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="font-semibold text-xl mb-2">Car Accidents:</h3>
-            <p class="text-md text-gray-700">
-              Whether your car crash was minor or serious, any injuries sustained in an accident can be painful and costly.
-            </p>
+            <img src="./images/practice_areas/accidented_car.jpg" alt="Car Accident" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold text-xl mb-2">Car Accidents:</h3>
+              <p class="text-md text-gray-700">
+                Whether your car crash was minor or serious, any injuries sustained in an accident can be painful and costly.
+              </p>
+            </div>
           </div>
-        </div>
         </a>
 
         <!-- Card 2 -->
-        <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
-          <img src="./images/practice_areas/bike.jpeg" alt="Motorcycle Accident" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="font-semibold text-xl mb-2">Motorcycle Accidents:</h3>
-            <p class="text-md text-gray-700">
-              As motorcycle accident lawyers, we know how devastating a motorcycle accident can be.
-            </p>
+        <a href="./bike_pedestrian/index.php">
+          <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
+            <img src="./images/practice_areas/bike.jpeg" alt="Motorcycle Accident" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold text-xl mb-2">Motorcycle Accidents:</h3>
+              <p class="text-md text-gray-700">
+                As motorcycle accident lawyers, we know how devastating a motorcycle accident can be.
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
 
         <!-- Card 3 -->
         <a href="./commercial_accident/index.php">
           <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
-          <img src="./images/practice_areas/truck.jpeg" alt="Truck Accident" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="font-semibold text-xl mb-2">Truck Accidents:</h3>
-            <p class="text-md text-gray-700">
-              Big trucks can be over 30-feet long and weigh up to 80,000 Lbs. At that size, a truck accident can be catastrophic.
-            </p>
+            <img src="./images/practice_areas/truck.jpeg" alt="Truck Accident" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold text-xl mb-2">Truck Accidents:</h3>
+              <p class="text-md text-gray-700">
+                Big trucks can be over 30-feet long and weigh up to 80,000 Lbs. At that size, a truck accident can be catastrophic.
+              </p>
+            </div>
           </div>
-        </div>
         </a>
 
         <!-- Card 4 -->
-       <a href="./commercial_accident/index.php">
-         <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
-          <img src="./images/practice_areas/bus.jpeg" alt="Bus Accident" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="font-semibold text-xl mb-2">Bus Accidents:</h3>
-            <p class="text-md text-gray-700">
-              Whenever there’s a bus accident, you are our first priority. If you’re injured, you’ll need immediate medical attention.
-            </p>
+        <a href="./commercial_accident/index.php">
+          <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
+            <img src="./images/practice_areas/bus.jpeg" alt="Bus Accident" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold text-xl mb-2">Bus Accidents:</h3>
+              <p class="text-md text-gray-700">
+                Whenever there’s a bus accident, you are our first priority. If you’re injured, you’ll need immediate medical attention.
+              </p>
+            </div>
           </div>
-        </div>
-       </a>
+        </a>
 
         <!-- Card 5 -->
         <a href="./bike_pedestrian/index.php">
           <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
-          <img src="./images/practice_areas/cycle.jpeg" alt="Bicycle Accident" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="font-semibold text-xl mb-2">Bicycle Accidents:</h3>
-            <p class="text-md text-gray-700">
-              From unsafe infrastructure to negligent drivers, bicyclists are often the first to suffer.
-            </p>
+            <img src="./images/practice_areas/cycle.jpeg" alt="Bicycle Accident" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold text-xl mb-2">Bicycle Accidents:</h3>
+              <p class="text-md text-gray-700">
+                From unsafe infrastructure to negligent drivers, bicyclists are often the first to suffer.
+              </p>
+            </div>
           </div>
-        </div>
         </a>
 
         <!-- Card 6 -->
         <a href="./bike_pedestrian/index.php">
           <div class="bg-gray-100 rounded overflow-hidden shadow-sm min-h-[350px]">
-          <img src="./images/practice_areas/pedist.jpeg" alt="Pedestrian Accident" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="font-semibold text-xl mb-2">Pedestrian Accidents:</h3>
-            <p class="text-md text-gray-700">
-              Some drivers simply don’t respect the rights of pedestrians.
-            </p>
+            <img src="./images/practice_areas/pedist.jpeg" alt="Pedestrian Accident" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold text-xl mb-2">Pedestrian Accidents:</h3>
+              <p class="text-md text-gray-700">
+                Some drivers simply don’t respect the rights of pedestrians.
+              </p>
+            </div>
           </div>
-        </div>
         </a>
       </div>
     </div>

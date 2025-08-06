@@ -469,13 +469,13 @@ if (isset($_POST['finish'])) {
         </div>
 
         <!-- Content Section -->
-        <div class="max-w-6xl mx-auto px-4 py-10 z-50 flex flex-col-reverse lg:flex-row         items-center lg:items-center justify-between gap-8 lg:pl-10 pl-0">
+        <div class="max-w-6xl mx-auto px-4 py-10 z-50 flex flex-col-reverse lg:flex-row  items-center lg:items-center justify-between gap-8 lg:pl-10 pl-0">
             <!-- Left Content Box -->
             <div class="bg-white/80 py-11 px-6 shadow-lg z-20 border border-gray-200 rounded-md md:min-h-[500px] w-full lg:w-1/2">
                 <div class="text-center">
                     <!-- Heading -->
-                    <h2 class="text-[24px] sm:text-[34px]  font-bold text-[#00446A] leading-snug mb-4">
-                        How A Commercial Vehicle<br /> Accident?
+                    <h2 class="text-[24px] sm:text-[34px]  font-bold text-[#00446A] leading-[38px] mb-4">
+                    How A Commercial Vehicle Accident Attorney Can Help You
                     </h2>
 
                     <!-- Description -->

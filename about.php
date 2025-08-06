@@ -57,7 +57,7 @@
     <?php include('./includes/car_header.php') ?>
 
 
-    <div class="relative bg-center bg-cover bg-no-repeat lg:h-[95vh] h-[50vh]" style="background-image: url('./images/aboout.avif');">
+    <div class="relative bg-center bg-cover bg-no-repeat lg:h-[95vh] h-[60vh]" style="background-image: url('./images/aboout.avif');">
         <div class="absolute inset-0 bg-black/60 z-0"></div>
 
         <div class="hidden lg:flex justify-end gap-6 md:max-w-7xl lg:max-w-7xl mx-auto py-3 relative z-10">
@@ -68,13 +68,12 @@
             <a href="./contact.php" class="text-white font-medium text-[17px]">CONTACT US</a>
         </div>
 
-        <div class="max-w-[700px] w-full absolute top-24 left-1/2 -translate-x-1/2">
+        <div class="max-w-[700px] w-full absolute md:top-24 top-8 left-1/2 -translate-x-1/2">
             <div class="bg-white/80 py-11 px-6 shadow-lg z-20 border border-gray-200 rounded-md md:min-h-[500px] w-full">
                 <div class="text-center">
-                    <!-- Heading -->
                    
                  <!-- Description -->
-                    <p class="text-gray-800 text-[14px] sm:text-[24px] mb-4">
+                    <p class="text-gray-800 text-[16px] sm:text-[24px] mb-4">
                         Infinite Quote Hub is dedicated to making legal assistance accessible and improving case outcomes by seamlessly connecting individuals with our extensive network of over 350 vetted, local attorney partners. We operate on core values of integrity, trustworthiness, accessibility, and expertise, ensuring every client receives the knowledgeable and compassionate representation they deserve. Available 24/7, we strive to understand your unique legal needs, build trust through a human-centered approach, and empower you to confidently navigate the legal process to secure the best possible results.
                     </p>
 
@@ -123,15 +122,12 @@
 
     <!-- ABOUT PARAGRAPH -->
     <div>
-        <p class="text-black text-[30px] font-semibold lg:mx-10 mx-5 my-5">
+        <p class="text-black md:text-[30px] text-[25] font-semibold lg:mx-10 mx-5 my-5">
             Our team is committed to making the law more accessible and improving case outcomes by connecting clients to our attorney network. Once you’re connected to a qualified attorney in our network, they will work closely with you to gather the facts, develop the case, and fight to secure compensation on your behalf.
         </p>
     </div>
 
-
-
-
-    <div class="bg-gray-800 px-10 ">
+    <div class="bg-gray-800 pb-6 md:px-10 px-4 ">
 
         <div class="pt-5">
             <h2 class="text-white text-[26px] font-semibold">

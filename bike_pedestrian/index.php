@@ -465,7 +465,7 @@ if (isset($_POST['finish'])) {
         <div class="pt-16 lg:pt-20 max-w-7xl mx-auto">
             <h2 class="text-white text-center relative z-10 font-bold text-[28px] sm:text-[36px] lg:text-[58px] leading-[60px]  px-4">
 
-                BICYCLE AND PEDESTRIAN ACCIDENT <br> ATTORNEYS
+                MOTORCYCLE, BICYCLE AND PEDESTRIAN ACCIDENT ATTORNEYS
             </h2>
         </div>
 
@@ -476,13 +476,13 @@ if (isset($_POST['finish'])) {
             <div class="bg-white/80 py-11 px-6 shadow-lg z-20 border border-gray-200 rounded-md md:min-h-[500px] w-full lg:w-1/2 ">
                 <div class="text-center">
                     <!-- Heading -->
-                    <h2 class="text-[24px] sm:text-[34px] font-bold text-[#00446A] leading-snug mb-4">
-                        How A Commercial Vehicle<br /> Accident?
+                    <h2 class="text-[24px] sm:text-[32px] leading-[36px] font-bold text-[#00446A]  mb-4">
+                        Have You Been In A Motorcycle, Bike or Pedestrian Accident?
                     </h2>
 
                     <!-- Description -->
                     <p class="text-gray-800 text-[14px] sm:text-[24px] mb-4 leading-[28px]   ">
-                        Dealing with a commercial vehicle accident is an overwhelming experience. Let our compassionate and experienced team handle the complex legal process so you can focus on your recovery. We'll guide you through every step, from taking on large corporations and their powerful legal teams to securing the maximum compensation you need to get back on your feet.
+                        Dealing with a pedestrian, bicycle, or motorcycle accident is an overwhelming experience. Let our compassionate and experienced team handle the complex legal process so you can focus on your recovery. We'll guide you through every step, from navigating the challenges of dealing with insurance companies to securing the maximum compensation you need to get back on your feet.
                     </p>
 
                     <!-- Buttons -->
@@ -499,7 +499,7 @@ if (isset($_POST['finish'])) {
 
             <!-- Right Image -->
             <div class="w-full lg:w-1/2 flex justify-center z-20">
-                <img src="../images/hero men.jpg" alt="Hero image" class="rounded-md w-auto h-[420px] md:h-[515px] object-contain" />
+                <img src="../images/hero men.jpg" alt="Hero image" class="rounded-md w-auto h-[420px] md:h-[520px] object-contain" />
             </div>
         </div>
     </div>
@@ -826,10 +826,10 @@ if (isset($_POST['finish'])) {
                 <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Experience Matters
                 </h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Experience is a meaningful predictor of quality representation. An attorney who has handled many cases has a unique insight into common patterns in litigation, which can help them navigate your case to a successful outcome and avoid pitfalls. We encourage you to work with lawyers who have helped clients navigate a variety of accident scenarios, including motorcycle lane splitting accident or crosswalk accident lawyer cases</p>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Go through a free consultation<</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Most personal injury and accident lawyers offer free advice or consultation through a hotline. At this time, they gather more information through a phone call or online about your case and help identify strategic options. If a lawyer wants money up front for a legal consultation, they are probably not the best candidate. It is important to evaluate whether you feel comfortable with an attorney. Consider: are your personalities compatible in the working context? If they are, you will enjoy a smoother process for your accident claim or case, which can help to deal with an otherwise stressful experience.</p>
-                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3 leading-[38px] leading-[28px]">Choosing between a large firm or small firm of bicycle, pedestrian, and motorcycle accident lawyers</h2>
-                <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">The assumption that larger firms are always better is not necessarily true. At a large firm, your case can sometimes get lost in the shuffle, while many smaller firms excel at providing personalized, focused attention to each client. The best choice depends on your specific needs, and we can connect you with an experienced lawyer who is capable of handling claims like yours.</p>
+                <h2 class="text-xl lg:text-[25px] font-semibold  mb-3">Go through a free consultation<< /h2>
+                        <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">Most personal injury and accident lawyers offer free advice or consultation through a hotline. At this time, they gather more information through a phone call or online about your case and help identify strategic options. If a lawyer wants money up front for a legal consultation, they are probably not the best candidate. It is important to evaluate whether you feel comfortable with an attorney. Consider: are your personalities compatible in the working context? If they are, you will enjoy a smoother process for your accident claim or case, which can help to deal with an otherwise stressful experience.</p>
+                        <h2 class="text-xl lg:text-[25px] font-semibold  mb-3 leading-[38px] leading-[28px]">Choosing between a large firm or small firm of bicycle, pedestrian, and motorcycle accident lawyers</h2>
+                        <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">The assumption that larger firms are always better is not necessarily true. At a large firm, your case can sometimes get lost in the shuffle, while many smaller firms excel at providing personalized, focused attention to each client. The best choice depends on your specific needs, and we can connect you with an experienced lawyer who is capable of handling claims like yours.</p>
 
             </div>
 
@@ -845,7 +845,7 @@ if (isset($_POST['finish'])) {
             <div id="q7" class="section-item bg-white p-6 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold mb-4 leading-[38px]">What Should I Bring To My First Meeting With A Bicycle, Pedestrian, and Motorcycle Accident Lawyer?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                   A well-prepared first meeting is a great way to start your case. You should create a folder with copies of all documents related to your case, including:
+                    A well-prepared first meeting is a great way to start your case. You should create a folder with copies of all documents related to your case, including:
                 </p>
                 <div class="ml-6 mt-4 space-y-2">
                     <p class="font-bold">● Police reports</p>
@@ -864,14 +864,14 @@ if (isset($_POST['finish'])) {
             <div id="q8" class="section-item bg-white p-6 rounded-lg shadow-sm">
                 <h2 class="text-2xl lg:text-[35px] font-bold  mb-4 leading-[38px]">How Do I Know My Bicycle, Pedestrian, and Motorcycle Accident Lawyer Will Approach My Case In The Right Way?</h2>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px]">
-                   It is perfectly acceptable—and encouraged—to ask your lawyer about their strategic plan for your case. They should be able to:
+                    It is perfectly acceptable—and encouraged—to ask your lawyer about their strategic plan for your case. They should be able to:
                 </p>
                 <div class="ml-6 mt-4 space-y-2">
-                    <p class="font-bold">●	Estimate what your case is worth based on your injuries and other damages.</p>
-                    <p class="font-bold">●	Explain their strategy for securing compensation for your bicycle, pedestrian, or motorcycle accident.</p>
+                    <p class="font-bold">● Estimate what your case is worth based on your injuries and other damages.</p>
+                    <p class="font-bold">● Explain their strategy for securing compensation for your bicycle, pedestrian, or motorcycle accident.</p>
                 </div>
                 <p class="text-base lg:text-md leading-relaxed lg:leading-[30px] mt-4">
-                   Remember, your lawyer is here to serve you. You have the right to ask questions or request that they approach things differently, such as negotiating a settlement rather than going to trial.
+                    Remember, your lawyer is here to serve you. You have the right to ask questions or request that they approach things differently, such as negotiating a settlement rather than going to trial.
                 </p>
             </div>
 
